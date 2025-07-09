@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cg4wicogw6dfq"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_dev6e"]
+
+[resource]
+script = ExtResource("1_dev6e")
+display_name = "love"
+permutations = Array[String](["love", "loves", "loving", "loved", "lover"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

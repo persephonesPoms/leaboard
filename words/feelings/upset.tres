@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://ucshi5wxjity"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_40d3b"]
+
+[resource]
+script = ExtResource("1_40d3b")
+display_name = "upset"
+permutations = Array[String](["upset", "upsets", "upsetting"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

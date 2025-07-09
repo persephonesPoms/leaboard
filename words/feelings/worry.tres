@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cmp1wqrwors1t"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_s80eh"]
+
+[resource]
+script = ExtResource("1_s80eh")
+display_name = "worry"
+permutations = Array[String](["worry", "worries", "worrying", "worried"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

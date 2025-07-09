@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://d1p0wrx6jiyud"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_sf8yk"]
+
+[resource]
+script = ExtResource("1_sf8yk")
+display_name = "he"
+permutations = Array[String](["he", "him", "his", "he's"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

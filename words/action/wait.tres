@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://m0yiuldyoslv"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_k5e1c"]
+
+[resource]
+script = ExtResource("1_k5e1c")
+display_name = "wait"
+permutations = Array[String](["wait", "waiting", "waited", "waits"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://bl6hbwig000gh"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_22tyk"]
+
+[resource]
+script = ExtResource("1_22tyk")
+display_name = "on/in/out/at"
+permutations = Array[String](["on", "in", "out", "at"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

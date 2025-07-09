@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cs7x0dkrnciwy"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_5kbdn"]
+
+[resource]
+script = ExtResource("1_5kbdn")
+display_name = "(conjunctions)"
+permutations = Array[String](["and", "or", "but", "for", "so", "yet", "nor"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

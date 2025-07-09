@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cb2uor8mtu1r8"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_uatxj"]
+
+[resource]
+script = ExtResource("1_uatxj")
+display_name = "boy"
+permutations = Array[String](["boy", "boys", "man", "men", "guy", "guys"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

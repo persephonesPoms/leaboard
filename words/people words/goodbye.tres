@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://d4015wa7u0g6"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_q13gj"]
+
+[resource]
+script = ExtResource("1_q13gj")
+display_name = "goodbye"
+permutations = Array[String](["goodbye", "bye"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

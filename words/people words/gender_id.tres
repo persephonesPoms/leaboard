@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://7c8710c1b0pm"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_avimn"]
+
+[resource]
+script = ExtResource("1_avimn")
+display_name = "(gender identity)"
+permutations = Array[String](["gender", "trans", "transgender", "cis", "cisgender", "genderfluid", "genderqueer"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

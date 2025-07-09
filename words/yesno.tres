@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dnc2v44kg3h4n"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_dvdkf"]
+
+[resource]
+script = ExtResource("1_dvdkf")
+display_name = "yes/no"
+permutations = Array[String](["yes", "yeah", "no", "nope"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

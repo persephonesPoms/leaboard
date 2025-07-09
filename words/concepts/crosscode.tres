@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dyugkknsuejqm"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_pp1tb"]
+
+[resource]
+script = ExtResource("1_pp1tb")
+display_name = "CrossCode"
+permutations = Array[String](["CrossCode", "CC", "CrossCode 2.0"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://chxqa0ebfro3x"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_h4l2j"]
+
+[resource]
+script = ExtResource("1_h4l2j")
+display_name = "plural"
+permutations = Array[String](["plural", "plurals", "plurality"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

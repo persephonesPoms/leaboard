@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://lfqel4vtmix0"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_wcqf8"]
+
+[resource]
+script = ExtResource("1_wcqf8")
+display_name = "except"
+permutations = Array[String](["except", "exception", "exempt", "exceptions"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

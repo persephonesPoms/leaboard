@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dgqol2hor4vcj"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_f0ma0"]
+
+[resource]
+script = ExtResource("1_f0ma0")
+display_name = "do"
+permutations = Array[String](["do", "does", "doing", "did", "would", "will"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dm80bacu5x1w4"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_3v7qe"]
+
+[resource]
+script = ExtResource("1_3v7qe")
+display_name = "L4-N/A"
+permutations = Array[String](["L4-N/A", "Lana"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

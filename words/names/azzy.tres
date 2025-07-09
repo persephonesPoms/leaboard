@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://bundrovrtmt71"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_v0pvr"]
+
+[resource]
+script = ExtResource("1_v0pvr")
+display_name = "Azzy"
+permutations = Array[String](["Azzy", "Hexacasts", "Copyrock", "Theo", "Emmie", "Copysona", "Copy"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

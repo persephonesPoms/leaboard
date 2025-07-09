@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dlgvcg0b22cjh"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_c4nk5"]
+
+[resource]
+script = ExtResource("1_c4nk5")
+display_name = "(quantities)"
+permutations = Array[String](["lots", "lot", "some", "very", "none", "many", "all", "more", "less", "half"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

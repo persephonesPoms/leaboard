@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cuahmyxc338u"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_m5koi"]
+
+[resource]
+script = ExtResource("1_m5koi")
+display_name = "Sol"
+permutations = Array[String](["Sol", "Soleil", "Solsie", "Solsy"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

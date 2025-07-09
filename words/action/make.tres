@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cwws4jrqfavgb"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_mg2tk"]
+
+[resource]
+script = ExtResource("1_mg2tk")
+display_name = "make"
+permutations = Array[String](["make", "making", "made", "makes"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"
