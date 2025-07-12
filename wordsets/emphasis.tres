@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=8 format=3 uid="uid://ckxyrpcrwxd8s"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_pwrsw"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_72r2h"]
+[ext_resource type="Resource" uid="uid://8sxc65f3svpu" path="res://words/emphasis/fuck.tres" id="3_id07w"]
+[ext_resource type="Resource" uid="uid://bjir2ij3kxc4r" path="res://words/emphasis/hell.tres" id="4_uolsm"]
+[ext_resource type="Resource" uid="uid://bn1v0p5lnor0y" path="res://words/emphasis/shit.tres" id="5_kvhv6"]
+[ext_resource type="Resource" uid="uid://dj41f4jneywt5" path="res://words/emphasis/yay.tres" id="6_u02ck"]
+[ext_resource type="Resource" uid="uid://petp2r7mu5cn" path="res://words/emphasis/oh.tres" id="7_fec8u"]
+
+[resource]
+script = ExtResource("1_pwrsw")
+words = Array[ExtResource("2_72r2h")]([ExtResource("3_id07w"), ExtResource("4_uolsm"), ExtResource("5_kvhv6"), ExtResource("6_u02ck"), ExtResource("7_fec8u")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

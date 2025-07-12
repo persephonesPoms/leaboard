@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dgec3gcx3ct0u"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_tfrrj"]
+
+[resource]
+script = ExtResource("1_tfrrj")
+display_name = "Joern"
+permutations = Array[String](["Joern"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

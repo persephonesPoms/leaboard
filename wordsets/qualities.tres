@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=20 format=3 uid="uid://bhb2bwsud26sa"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_iwiy2"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_c0ud2"]
+[ext_resource type="Resource" uid="uid://dlgvcg0b22cjh" path="res://words/qualities general/quantities.tres" id="3_qnesf"]
+[ext_resource type="Resource" uid="uid://be3a2n7bc85u7" path="res://words/qualities general/superlatives.tres" id="4_wr64n"]
+[ext_resource type="Resource" uid="uid://bns51dlk0gsx4" path="res://words/qualities general/easy.tres" id="5_q6ilb"]
+[ext_resource type="Resource" uid="uid://cd882g1ylklnu" path="res://words/qualities general/hard.tres" id="6_23n7r"]
+[ext_resource type="Resource" uid="uid://gbg67afu48b0" path="res://words/qualities general/good.tres" id="7_5h6ay"]
+[ext_resource type="Resource" uid="uid://bbdwh8ihwqxwe" path="res://words/qualities general/messy.tres" id="8_o5t4q"]
+[ext_resource type="Resource" uid="uid://diis1836pono" path="res://words/qualities general/bad.tres" id="9_lorxm"]
+[ext_resource type="Resource" uid="uid://brgptxr38t5ha" path="res://words/qualities general/deserve.tres" id="10_grffa"]
+[ext_resource type="Resource" uid="uid://crhjpkpn7ix7v" path="res://words/qualities general/slow.tres" id="11_g1i5m"]
+[ext_resource type="Resource" uid="uid://dq4jjrnj6ybow" path="res://words/qualities general/fast.tres" id="12_sbjme"]
+[ext_resource type="Resource" uid="uid://hdpy22rbjrkx" path="res://words/qualities general/still.tres" id="13_o22b6"]
+[ext_resource type="Resource" uid="uid://67jw53didkc4" path="res://words/qualities general/manual.tres" id="14_4bxc3"]
+[ext_resource type="Resource" uid="uid://degw6i3ni3dtg" path="res://words/qualities general/straight.tres" id="15_pbrm3"]
+[ext_resource type="Resource" uid="uid://1xchglnefnuu" path="res://words/qualities general/powerful.tres" id="16_peede"]
+[ext_resource type="Resource" uid="uid://kkpxctrnrmbw" path="res://words/qualities general/okay.tres" id="17_mnadx"]
+[ext_resource type="Resource" uid="uid://utqvds8nr0sc" path="res://words/qualities general/cursed.tres" id="18_xbgd7"]
+[ext_resource type="Resource" uid="uid://bxpe54407fd1q" path="res://words/qualities general/strange.tres" id="19_kgkst"]
+
+[resource]
+script = ExtResource("1_iwiy2")
+words = Array[ExtResource("2_c0ud2")]([ExtResource("3_qnesf"), ExtResource("4_wr64n"), ExtResource("5_q6ilb"), ExtResource("6_23n7r"), ExtResource("7_5h6ay"), ExtResource("8_o5t4q"), ExtResource("9_lorxm"), ExtResource("10_grffa"), ExtResource("11_g1i5m"), ExtResource("12_sbjme"), ExtResource("13_o22b6"), ExtResource("14_4bxc3"), ExtResource("15_pbrm3"), ExtResource("16_peede"), ExtResource("17_mnadx"), ExtResource("18_xbgd7"), ExtResource("19_kgkst")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

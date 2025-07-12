@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=14 format=3 uid="uid://dpgtf68h75kh8"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_dgmug"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_gvou7"]
+[ext_resource type="Resource" uid="uid://dlj3qqaru1p7t" path="res://words/concepts/time.tres" id="3_aus2y"]
+[ext_resource type="Resource" uid="uid://dbgmdtyo14om7" path="res://words/time/later.tres" id="4_hb1hq"]
+[ext_resource type="Resource" uid="uid://0l6g5c50hywc" path="res://words/time/morning.tres" id="5_10guy"]
+[ext_resource type="Resource" uid="uid://bmkpmfmqhewdk" path="res://words/time/night.tres" id="6_wt7su"]
+[ext_resource type="Resource" uid="uid://m0yiuldyoslv" path="res://words/action/wait.tres" id="7_u38b0"]
+[ext_resource type="Resource" uid="uid://dindqjke6f2yc" path="res://words/time/now.tres" id="8_kh1pj"]
+[ext_resource type="Resource" uid="uid://cee16e2k3y6l8" path="res://words/time/day.tres" id="9_75gn0"]
+[ext_resource type="Resource" uid="uid://cn0yo5yp463y0" path="res://words/time/afternoon.tres" id="10_thel1"]
+[ext_resource type="Resource" uid="uid://bjuo6b65x6eo4" path="res://words/time/recent.tres" id="11_qhw3m"]
+[ext_resource type="Resource" uid="uid://dyk1yivokr2ju" path="res://words/time/eventually.tres" id="12_rog2w"]
+[ext_resource type="Resource" uid="uid://j4p2qde2h7t2" path="res://words/time/soon.tres" id="13_rr8f4"]
+
+[resource]
+script = ExtResource("1_dgmug")
+words = Array[ExtResource("2_gvou7")]([ExtResource("3_aus2y"), ExtResource("4_hb1hq"), ExtResource("5_10guy"), ExtResource("6_wt7su"), ExtResource("7_u38b0"), ExtResource("8_kh1pj"), ExtResource("9_75gn0"), ExtResource("10_thel1"), ExtResource("11_qhw3m"), ExtResource("12_rog2w"), ExtResource("13_rr8f4")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

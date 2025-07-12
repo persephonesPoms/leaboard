@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://c08oo56jn0nke"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_uk6ny"]
+
+[resource]
+script = ExtResource("1_uk6ny")
+display_name = "Albert"
+permutations = Array[String](["Albert", "Al", "Albert Grumpesto"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

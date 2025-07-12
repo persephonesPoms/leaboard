@@ -1,0 +1,34 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=27 format=3 uid="uid://ci7ggv7u2p772"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_lb5ki"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_16575"]
+[ext_resource type="Resource" uid="uid://c1ijy88y48k1r" path="res://words/people words/person.tres" id="3_o6apa"]
+[ext_resource type="Resource" uid="uid://cgssn1xsty4j4" path="res://words/people words/tone.tres" id="4_x4o6e"]
+[ext_resource type="Resource" uid="uid://c13ggevm50ldl" path="res://words/people words/friend.tres" id="5_bxdih"]
+[ext_resource type="Resource" uid="uid://q7yuffkbsc8s" path="res://words/people words/lover.tres" id="6_ifaae"]
+[ext_resource type="Resource" uid="uid://cyw4awfdsehv4" path="res://words/people words/kind.tres" id="7_wxgm4"]
+[ext_resource type="Resource" uid="uid://ntjb0lisegu" path="res://words/people words/sarcasm.tres" id="8_g3fos"]
+[ext_resource type="Resource" uid="uid://cwvxnom5lj7ih" path="res://words/people words/mean.tres" id="9_6mdt3"]
+[ext_resource type="Resource" uid="uid://b51umwrknadlk" path="res://words/people words/hello.tres" id="10_3m5t3"]
+[ext_resource type="Resource" uid="uid://d4015wa7u0g6" path="res://words/people words/goodbye.tres" id="11_tvj1v"]
+[ext_resource type="Resource" uid="uid://c2wbxdvb72o6l" path="res://words/people words/sidwell.tres" id="12_0xiu8"]
+[ext_resource type="Resource" uid="uid://cc5337xwqeq3p" path="res://words/people words/manuela.tres" id="13_ln1lw"]
+[ext_resource type="Resource" uid="uid://bvbsn7qnqjm0r" path="res://words/people words/thank.tres" id="14_b6ls6"]
+[ext_resource type="Resource" uid="uid://7c8710c1b0pm" path="res://words/people words/gender_id.tres" id="15_24b6k"]
+[ext_resource type="Resource" uid="uid://bumyk5t3lupom" path="res://words/people words/girl.tres" id="16_736sf"]
+[ext_resource type="Resource" uid="uid://cb2uor8mtu1r8" path="res://words/people words/boy.tres" id="17_mt365"]
+[ext_resource type="Resource" uid="uid://cgxvppfcu5htc" path="res://words/people words/enby.tres" id="18_ed2qb"]
+[ext_resource type="Resource" uid="uid://dcmfxdym6vwta" path="res://words/people words/gay.tres" id="19_cmcpn"]
+[ext_resource type="Resource" uid="uid://cq2pxtvoimbwc" path="res://words/people words/lesbian.tres" id="20_dexyo"]
+[ext_resource type="Resource" uid="uid://d4b6ncagl0wt0" path="res://words/people words/sapphic.tres" id="21_r7v6c"]
+[ext_resource type="Resource" uid="uid://6lopdrlf5ymm" path="res://words/people words/bi-pan.tres" id="22_sb7t6"]
+[ext_resource type="Resource" uid="uid://degw6i3ni3dtg" path="res://words/qualities general/straight.tres" id="23_382j1"]
+[ext_resource type="Resource" uid="uid://bxvkid3806cvf" path="res://words/people words/Ortet.tres" id="24_u3662"]
+[ext_resource type="Resource" uid="uid://b8ro8q4y0oijp" path="res://words/people words/Ramet.tres" id="25_7i053"]
+[ext_resource type="Resource" uid="uid://vil55je5x678" path="res://words/people words/sorry.tres" id="26_rc5ga"]
+
+[resource]
+script = ExtResource("1_lb5ki")
+words = Array[ExtResource("2_16575")]([ExtResource("3_o6apa"), ExtResource("4_x4o6e"), ExtResource("5_bxdih"), ExtResource("6_ifaae"), ExtResource("7_wxgm4"), ExtResource("8_g3fos"), ExtResource("9_6mdt3"), ExtResource("10_3m5t3"), ExtResource("11_tvj1v"), ExtResource("12_0xiu8"), ExtResource("13_ln1lw"), ExtResource("14_b6ls6"), ExtResource("15_24b6k"), ExtResource("16_736sf"), ExtResource("17_mt365"), ExtResource("18_ed2qb"), ExtResource("19_cmcpn"), ExtResource("20_dexyo"), ExtResource("21_r7v6c"), ExtResource("22_sb7t6"), ExtResource("23_382j1"), ExtResource("24_u3662"), ExtResource("25_7i053"), ExtResource("26_rc5ga")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=15 format=3 uid="uid://726ipefuntf8"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_2d7i0"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_ihfvr"]
+[ext_resource type="Resource" uid="uid://dammmcvfnigsi" path="res://words/articles and pronouns/punct.tres" id="3_t3pvb"]
+[ext_resource type="Resource" uid="uid://cvlfeb0512qft" path="res://words/articles and pronouns/apostrophe.tres" id="4_nqq4o"]
+[ext_resource type="Resource" uid="uid://ciijg8sucx1ch" path="res://words/articles and pronouns/brackets.tres" id="5_enja8"]
+[ext_resource type="Resource" uid="uid://nlobuv4bnmj7" path="res://words/articles and pronouns/a.tres" id="6_5fcja"]
+[ext_resource type="Resource" uid="uid://d4m7fo2vf2nom" path="res://words/articles and pronouns/the.tres" id="7_rhec8"]
+[ext_resource type="Resource" uid="uid://mljm2wg0pigv" path="res://words/articles and pronouns/i.tres" id="8_e1ify"]
+[ext_resource type="Resource" uid="uid://cidjbeuqttkgn" path="res://words/articles and pronouns/you.tres" id="9_3sg5c"]
+[ext_resource type="Resource" uid="uid://cxciuk3b740ks" path="res://words/articles and pronouns/she.tres" id="10_m6jx6"]
+[ext_resource type="Resource" uid="uid://d1p0wrx6jiyud" path="res://words/articles and pronouns/he.tres" id="11_8b1xg"]
+[ext_resource type="Resource" uid="uid://dd31xtdjrrwpu" path="res://words/articles and pronouns/they.tres" id="12_nyb6y"]
+[ext_resource type="Resource" uid="uid://dnbv3qftl7v8c" path="res://words/articles and pronouns/it.tres" id="13_hohsn"]
+[ext_resource type="Resource" uid="uid://2mihcop120c8" path="res://words/articles and pronouns/this.tres" id="14_xdfq7"]
+
+[resource]
+script = ExtResource("1_2d7i0")
+words = Array[ExtResource("2_ihfvr")]([ExtResource("3_t3pvb"), ExtResource("4_nqq4o"), ExtResource("5_enja8"), ExtResource("6_5fcja"), ExtResource("7_rhec8"), ExtResource("8_e1ify"), ExtResource("9_3sg5c"), ExtResource("10_m6jx6"), ExtResource("11_8b1xg"), ExtResource("12_nyb6y"), ExtResource("13_hohsn"), ExtResource("14_xdfq7")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

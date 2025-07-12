@@ -1,0 +1,27 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=20 format=3 uid="uid://dqspgcjd4njs8"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_hty12"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_lvur7"]
+[ext_resource type="Resource" uid="uid://cf6dfenwhfmw1" path="res://words/feelings/feel.tres" id="3_5qbq4"]
+[ext_resource type="Resource" uid="uid://cselogekl2et0" path="res://words/feelings/happy.tres" id="4_atn37"]
+[ext_resource type="Resource" uid="uid://dktm77pwg8010" path="res://words/feelings/sad.tres" id="5_rsdwu"]
+[ext_resource type="Resource" uid="uid://wwibkiets4w6" path="res://words/feelings/fear.tres" id="6_w03jg"]
+[ext_resource type="Resource" uid="uid://l5mr0m4k7cgd" path="res://words/feelings/care.tres" id="7_v8m84"]
+[ext_resource type="Resource" uid="uid://dl8u7j24pd88" path="res://words/feelings/fun.tres" id="8_7uaoo"]
+[ext_resource type="Resource" uid="uid://cw1ajlt66j4rt" path="res://words/feelings/miss.tres" id="9_gwkea"]
+[ext_resource type="Resource" uid="uid://cg4wicogw6dfq" path="res://words/feelings/love.tres" id="10_ki8kn"]
+[ext_resource type="Resource" uid="uid://bt0bl5rv5yojj" path="res://words/feelings/hate.tres" id="11_l6217"]
+[ext_resource type="Resource" uid="uid://ds7r45f6ou772" path="res://words/feelings/hope.tres" id="12_allfl"]
+[ext_resource type="Resource" uid="uid://bj3affv4dxlb" path="res://words/feelings/hurt.tres" id="13_6sjrk"]
+[ext_resource type="Resource" uid="uid://d8jlxsls1bpo" path="res://words/feelings/tired.tres" id="14_mw4jn"]
+[ext_resource type="Resource" uid="uid://ucshi5wxjity" path="res://words/feelings/upset.tres" id="15_jj6hp"]
+[ext_resource type="Resource" uid="uid://cmp1wqrwors1t" path="res://words/feelings/worry.tres" id="16_uh645"]
+[ext_resource type="Resource" uid="uid://dhjavqs6w4ifv" path="res://words/feelings/like.tres" id="17_6rxc6"]
+[ext_resource type="Resource" uid="uid://d3443xvk4upu7" path="res://words/feelings/want.tres" id="18_2body"]
+[ext_resource type="Resource" uid="uid://vil55je5x678" path="res://words/people words/sorry.tres" id="19_atn37"]
+
+[resource]
+script = ExtResource("1_hty12")
+words = Array[ExtResource("2_lvur7")]([ExtResource("3_5qbq4"), ExtResource("4_atn37"), ExtResource("5_rsdwu"), ExtResource("6_w03jg"), ExtResource("8_7uaoo"), ExtResource("9_gwkea"), ExtResource("10_ki8kn"), ExtResource("11_l6217"), ExtResource("12_allfl"), ExtResource("13_6sjrk"), ExtResource("14_mw4jn"), ExtResource("15_jj6hp"), ExtResource("16_uh645"), ExtResource("17_6rxc6"), ExtResource("18_2body"), ExtResource("7_v8m84"), ExtResource("19_atn37")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

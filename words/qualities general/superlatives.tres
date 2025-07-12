@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://be3a2n7bc85u7"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_gc2f7"]
+
+[resource]
+script = ExtResource("1_gc2f7")
+display_name = "(superlatives)"
+permutations = Array[String](["best", "worst", "most", "least", "nothing", "everything"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=10 format=3 uid="uid://b1t8o7q3lclpt"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_iw0c7"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_nnnws"]
+[ext_resource type="Resource" uid="uid://cs7x0dkrnciwy" path="res://words/conjunctions.tres" id="3_rbt1s"]
+[ext_resource type="Resource" uid="uid://dndpeeydlyltx" path="res://words/names/lea.tres" id="4_ga1hr"]
+[ext_resource type="Resource" uid="uid://bo3g5pf87dwd4" path="res://words/questions.tres" id="5_5qu85"]
+[ext_resource type="Resource" uid="uid://dxeo7rky88mk6" path="res://words/action/hug.tres" id="6_jeymq"]
+[ext_resource type="Resource" uid="uid://b51umwrknadlk" path="res://words/people words/hello.tres" id="7_gs5m3"]
+[ext_resource type="Resource" uid="uid://d4015wa7u0g6" path="res://words/people words/goodbye.tres" id="8_iuxbn"]
+[ext_resource type="Resource" uid="uid://dnc2v44kg3h4n" path="res://words/yesno.tres" id="9_5mw48"]
+
+[resource]
+script = ExtResource("1_iw0c7")
+words = Array[ExtResource("2_nnnws")]([ExtResource("3_rbt1s"), ExtResource("4_ga1hr"), ExtResource("5_5qu85"), ExtResource("6_jeymq"), ExtResource("7_gs5m3"), ExtResource("8_iuxbn"), ExtResource("9_5mw48")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

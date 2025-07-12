@@ -8,4 +8,5 @@ func _gui_input(event):
 			Controller.preview.add_text(text,source_word)
 			Controller.perm_panel.close()
 			if !Controller.common:
-				Controller.recents.add_recent(source_word)
+				if Controller.recents != null:
+					Controller.recents.add_recent(source_word)

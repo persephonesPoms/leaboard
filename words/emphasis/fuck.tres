@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_stcwh")
 display_name = "fuck"
-permutations = Array[String](["fuck", "fucking", "FUCK"])
+permutations = Array[String](["fuck", "fucking", "fucks", "fucked"])
 nospace_after = false
 nospace_before = false
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

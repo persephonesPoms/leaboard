@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://ct4j2ius486ay"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_jfv04"]
+
+[resource]
+script = ExtResource("1_jfv04")
+display_name = "Vintage Voidcraft"
+permutations = Array[String](["Vintage Voidcraft", "VV"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

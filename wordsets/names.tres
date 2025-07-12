@@ -1,0 +1,37 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=30 format=3 uid="uid://doac1w6r6g8gu"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_5hv2f"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_8wrnk"]
+[ext_resource type="Resource" uid="uid://dndpeeydlyltx" path="res://words/names/lea.tres" id="3_tov1y"]
+[ext_resource type="Resource" uid="uid://b23csexef7lkk" path="res://words/names/shizuka.tres" id="4_64nc1"]
+[ext_resource type="Resource" uid="uid://xy3qvlor4xmn" path="res://words/names/sophie.tres" id="5_sfh7h"]
+[ext_resource type="Resource" uid="uid://drw324w6yut5b" path="res://words/names/emilie.tres" id="6_harqn"]
+[ext_resource type="Resource" uid="uid://4wrnlx1b8he1" path="res://words/names/luke.tres" id="7_q1q70"]
+[ext_resource type="Resource" uid="uid://dr6h7xf7gllbb" path="res://words/names/ctron.tres" id="8_vrv14"]
+[ext_resource type="Resource" uid="uid://d2fpru5dxdkn7" path="res://words/names/satoshi.tres" id="9_ob0ow"]
+[ext_resource type="Resource" uid="uid://b0apv2vic7trq" path="res://words/names/sergey.tres" id="10_io1u6"]
+[ext_resource type="Resource" uid="uid://bastk5j6vywta" path="res://words/names/carla.tres" id="11_ern1p"]
+[ext_resource type="Resource" uid="uid://cprka2i1nixa3" path="res://words/names/jet.tres" id="12_xgvgx"]
+[ext_resource type="Resource" uid="uid://brxxhumtss7pd" path="res://words/names/buggy.tres" id="13_bdts3"]
+[ext_resource type="Resource" uid="uid://c08oo56jn0nke" path="res://words/names/albert.tres" id="14_64nc1"]
+[ext_resource type="Resource" uid="uid://br6dlyxgc76fx" path="res://words/names/lin.tres" id="15_sfh7h"]
+[ext_resource type="Resource" uid="uid://cg2hgnldd01r2" path="res://words/names/apollo.tres" id="16_harqn"]
+[ext_resource type="Resource" uid="uid://dgec3gcx3ct0u" path="res://words/names/joern.tres" id="17_q1q70"]
+[ext_resource type="Resource" uid="uid://urmbntpqvnc5" path="res://words/names/persephone.tres" id="18_jrssb"]
+[ext_resource type="Resource" uid="uid://dm80bacu5x1w4" path="res://words/names/lana.tres" id="19_uiu8k"]
+[ext_resource type="Resource" uid="uid://bmo5tqb3170ya" path="res://words/names/roslyn.tres" id="20_0aroe"]
+[ext_resource type="Resource" uid="uid://cuahmyxc338u" path="res://words/names/Sol.tres" id="21_y34r6"]
+[ext_resource type="Resource" uid="uid://d3edlcn1dqp4u" path="res://words/names/amber.tres" id="22_uiu8k"]
+[ext_resource type="Resource" uid="uid://dgaxrsx2yxrdx" path="res://words/names/jo.tres" id="22_vkkvc"]
+[ext_resource type="Resource" uid="uid://balh2vkj3sfar" path="res://words/names/archra.tres" id="23_otbnm"]
+[ext_resource type="Resource" uid="uid://bundrovrtmt71" path="res://words/names/azzy.tres" id="24_c3dpt"]
+[ext_resource type="Resource" uid="uid://cbjufiudcf5hm" path="res://words/names/lesserl.tres" id="25_4wvaw"]
+[ext_resource type="Resource" uid="uid://balxi113l34uq" path="res://words/names/rho.tres" id="26_o0214"]
+[ext_resource type="Resource" uid="uid://o4q2t48glk5g" path="res://words/names/SillySlime.tres" id="27_aa2c0"]
+[ext_resource type="Resource" uid="uid://bwoaduwdhnu6q" path="res://words/names/soulful_forge.tres" id="28_o4arf"]
+
+[resource]
+script = ExtResource("1_5hv2f")
+words = Array[ExtResource("2_8wrnk")]([ExtResource("3_tov1y"), ExtResource("4_64nc1"), ExtResource("5_sfh7h"), ExtResource("6_harqn"), ExtResource("7_q1q70"), ExtResource("8_vrv14"), ExtResource("9_ob0ow"), ExtResource("10_io1u6"), ExtResource("11_ern1p"), ExtResource("12_xgvgx"), ExtResource("13_bdts3"), ExtResource("14_64nc1"), ExtResource("15_sfh7h"), ExtResource("16_harqn"), ExtResource("17_q1q70"), ExtResource("18_jrssb"), ExtResource("19_uiu8k"), ExtResource("20_0aroe"), ExtResource("21_y34r6"), ExtResource("22_uiu8k"), ExtResource("22_vkkvc"), ExtResource("23_otbnm"), ExtResource("24_c3dpt"), ExtResource("25_4wvaw"), ExtResource("26_o0214"), ExtResource("27_aa2c0"), ExtResource("28_o4arf")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="Wordset" load_steps=23 format=3 uid="uid://dlt6vb5icgcni"]
+
+[ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_yv2po"]
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_77b1k"]
+[ext_resource type="Resource" uid="uid://dlj3qqaru1p7t" path="res://words/concepts/time.tres" id="3_jan0q"]
+[ext_resource type="Resource" uid="uid://4618407uag11" path="res://words/concepts/evotar.tres" id="4_g57eu"]
+[ext_resource type="Resource" uid="uid://dyugkknsuejqm" path="res://words/concepts/crosscode.tres" id="5_egqms"]
+[ext_resource type="Resource" uid="uid://bpk4meqe0rfsn" path="res://words/concepts/word.tres" id="6_g7m88"]
+[ext_resource type="Resource" uid="uid://g2b7tsvchw0j" path="res://words/concepts/archipelago.tres" id="7_h47to"]
+[ext_resource type="Resource" uid="uid://bwyje64i6sux0" path="res://words/concepts/game.tres" id="8_segtx"]
+[ext_resource type="Resource" uid="uid://w8s5qr6dfw3h" path="res://words/concepts/item.tres" id="9_wwvxj"]
+[ext_resource type="Resource" uid="uid://cmnev8q3epiw0" path="res://words/concepts/skill.tres" id="10_4q1ml"]
+[ext_resource type="Resource" uid="uid://cdjmcev4r7fow" path="res://words/concepts/problem.tres" id="11_ihhqy"]
+[ext_resource type="Resource" uid="uid://trnf83gnvkin" path="res://words/concepts/mind.tres" id="12_ye6vb"]
+[ext_resource type="Resource" uid="uid://chxqa0ebfro3x" path="res://words/concepts/plural.tres" id="13_h8py6"]
+[ext_resource type="Resource" uid="uid://bxbwiniqmlefu" path="res://words/concepts/system.tres" id="14_kulyj"]
+[ext_resource type="Resource" uid="uid://dsbqt21jvurl8" path="res://words/concepts/art.tres" id="15_eix56"]
+[ext_resource type="Resource" uid="uid://d8ib20lcqxx6" path="res://words/concepts/life.tres" id="16_8yx4i"]
+[ext_resource type="Resource" uid="uid://c6yuxtpcf3qex" path="res://words/concepts/horror.tres" id="17_rkrbe"]
+[ext_resource type="Resource" uid="uid://ct4j2ius486ay" path="res://words/concepts/vintagevoidcraft.tres" id="18_hqffq"]
+[ext_resource type="Resource" uid="uid://ch3i2f7vc7ueu" path="res://words/concepts/story.tres" id="19_asbvu"]
+[ext_resource type="Resource" uid="uid://mb84oawb4pd3" path="res://words/concepts/self.tres" id="20_qsu28"]
+[ext_resource type="Resource" uid="uid://2ab4wek1pj2s" path="res://words/concepts/disaster.tres" id="21_wm4lb"]
+[ext_resource type="Resource" uid="uid://27epxxqlcrmo" path="res://words/concepts/crime.tres" id="22_8qjhx"]
+
+[resource]
+script = ExtResource("1_yv2po")
+words = Array[ExtResource("2_77b1k")]([ExtResource("3_jan0q"), ExtResource("4_g57eu"), ExtResource("5_egqms"), ExtResource("6_g7m88"), ExtResource("7_h47to"), ExtResource("8_segtx"), ExtResource("9_wwvxj"), ExtResource("10_4q1ml"), ExtResource("11_ihhqy"), ExtResource("12_ye6vb"), ExtResource("13_h8py6"), ExtResource("14_kulyj"), ExtResource("15_eix56"), ExtResource("16_8yx4i"), ExtResource("17_rkrbe"), ExtResource("18_hqffq"), ExtResource("19_asbvu"), ExtResource("20_qsu28"), ExtResource("21_wm4lb"), ExtResource("22_8qjhx")])
+is_common = false
+metadata/_custom_type_script = "uid://bsnfgfse84nlf"
