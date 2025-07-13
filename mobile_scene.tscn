@@ -1,4 +1,4 @@
-[gd_scene load_steps=190 format=3 uid="uid://hikpcyjwxype"]
+[gd_scene load_steps=192 format=3 uid="uid://hikpcyjwxype"]
 
 [ext_resource type="Script" uid="uid://c7aya8rf2xwdb" path="res://scene_parent.gd" id="1_r3dj4"]
 [ext_resource type="Script" uid="uid://jp8lpsfa7d6r" path="res://leaboard_container.gd" id="2_y7wsv"]
@@ -183,7 +183,9 @@
 [ext_resource type="Resource" uid="uid://dj41f4jneywt5" path="res://words/emphasis/yay.tres" id="181_bxk4r"]
 [ext_resource type="Resource" uid="uid://petp2r7mu5cn" path="res://words/emphasis/oh.tres" id="182_0b0b6"]
 [ext_resource type="Script" uid="uid://cvb650b0gvnn3" path="res://output_text.gd" id="183_1p547"]
+[ext_resource type="Texture2D" uid="uid://bvywxjd20dqm" path="res://textures/copy.png" id="184_8se5w"]
 [ext_resource type="Script" uid="uid://djyjh1uen641i" path="res://permutation_panel.gd" id="184_jiobv"]
+[ext_resource type="Texture2D" uid="uid://d4cdysopi3o8r" path="res://textures/play.png" id="185_3x0qj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r3dj4"]
 bg_color = Color(0.398941, 0.485082, 0.660415, 1)
@@ -476,11 +478,11 @@ script = ExtResource("183_1p547")
 
 [node name="Clipboard Button" type="Button" parent="VBoxContainer/Panel/VBoxContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "📋"
+icon = ExtResource("184_8se5w")
 
 [node name="Button2" type="Button" parent="VBoxContainer/Panel/VBoxContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = " ▶ "
+icon = ExtResource("185_3x0qj")
 
 [node name="Clear" type="Button" parent="VBoxContainer/Panel/VBoxContainer/VBoxContainer/HBoxContainer"]
 layout_mode = 2

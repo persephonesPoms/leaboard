@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dnp1kxqx6lqyp"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_j3reu"]
+
+[resource]
+script = ExtResource("1_j3reu")
+display_name = "than"
+permutations = Array[String](["than"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

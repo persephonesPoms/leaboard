@@ -1,9 +1,10 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=11 format=3 uid="uid://cek66cxdhy6uj"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=12 format=3 uid="uid://cek66cxdhy6uj"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_y3bhx"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_xjqdd"]
 [ext_resource type="Resource" uid="uid://dt1ahvkamnplm" path="res://words/objects/board.tres" id="3_6ygyj"]
 [ext_resource type="Resource" uid="uid://doiwxx0qroa7j" path="res://words/objects/bed.tres" id="4_irj0t"]
+[ext_resource type="Resource" uid="uid://yjpf2cfenp3n" path="res://words/objects/phone.tres" id="5_irj0t"]
 [ext_resource type="Resource" uid="uid://xoqq64v4qrt0" path="res://words/objects/computer.tres" id="5_jgp3l"]
 [ext_resource type="Resource" uid="uid://1we22odg1x82" path="res://words/objects/home.tres" id="6_5n814"]
 [ext_resource type="Resource" uid="uid://c1dqvol0a1jai" path="res://words/objects/coffee.tres" id="7_6iogk"]
@@ -13,6 +14,6 @@
 
 [resource]
 script = ExtResource("1_y3bhx")
-words = Array[ExtResource("2_xjqdd")]([ExtResource("3_6ygyj"), ExtResource("4_irj0t"), ExtResource("5_jgp3l"), ExtResource("6_5n814"), ExtResource("7_6iogk"), ExtResource("8_eck1k"), ExtResource("9_xrmjk"), ExtResource("10_501dj")])
+words = Array[ExtResource("2_xjqdd")]([ExtResource("3_6ygyj"), ExtResource("4_irj0t"), ExtResource("5_irj0t"), ExtResource("5_jgp3l"), ExtResource("6_5n814"), ExtResource("7_6iogk"), ExtResource("8_eck1k"), ExtResource("9_xrmjk"), ExtResource("10_501dj")])
 is_common = false
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"

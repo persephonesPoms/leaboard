@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dcyi7j8b6knk2"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_5rrd7"]
+
+[resource]
+script = ExtResource("1_5rrd7")
+display_name = "even"
+permutations = Array[String](["even", "evenly"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

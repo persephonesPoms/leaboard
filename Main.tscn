@@ -1,188 +1,73 @@
-[gd_scene load_steps=193 format=3 uid="uid://3px1a4wr0ljx"]
+[gd_scene load_steps=78 format=3 uid="uid://3px1a4wr0ljx"]
 
 [ext_resource type="Script" uid="uid://cvb650b0gvnn3" path="res://output_text.gd" id="1_glv2v"]
 [ext_resource type="Script" uid="uid://c7aya8rf2xwdb" path="res://scene_parent.gd" id="1_xurl6"]
-[ext_resource type="Resource" uid="uid://dndpeeydlyltx" path="res://words/names/lea.tres" id="2_cm0pq"]
 [ext_resource type="Resource" uid="uid://726ipefuntf8" path="res://wordsets/articlespronouns.tres" id="2_livak"]
 [ext_resource type="Script" uid="uid://djyjh1uen641i" path="res://permutation_panel.gd" id="2_uu6xs"]
 [ext_resource type="Resource" uid="uid://b1t8o7q3lclpt" path="res://words/common.tres" id="3_uf2n2"]
 [ext_resource type="Script" uid="uid://jp8lpsfa7d6r" path="res://leaboard_container.gd" id="13_j4qnp"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="14_sc1dx"]
-[ext_resource type="Resource" uid="uid://cs7x0dkrnciwy" path="res://words/conjunctions.tres" id="16_40n85"]
-[ext_resource type="Resource" uid="uid://drw324w6yut5b" path="res://words/names/emilie.tres" id="16_devvj"]
-[ext_resource type="Resource" uid="uid://xy3qvlor4xmn" path="res://words/names/sophie.tres" id="17_3b0ty"]
-[ext_resource type="Resource" uid="uid://b23csexef7lkk" path="res://words/names/shizuka.tres" id="18_bg4s2"]
-[ext_resource type="Resource" uid="uid://bo3g5pf87dwd4" path="res://words/questions.tres" id="18_sph85"]
-[ext_resource type="Resource" uid="uid://dr6h7xf7gllbb" path="res://words/names/ctron.tres" id="19_hhcpw"]
 [ext_resource type="Resource" uid="uid://dxeo7rky88mk6" path="res://words/action/hug.tres" id="19_o7g6l"]
-[ext_resource type="Resource" uid="uid://b51umwrknadlk" path="res://words/people words/hello.tres" id="20_ady3b"]
-[ext_resource type="Resource" uid="uid://d4015wa7u0g6" path="res://words/people words/goodbye.tres" id="21_aoqpd"]
-[ext_resource type="Resource" uid="uid://4wrnlx1b8he1" path="res://words/names/luke.tres" id="21_bg4s2"]
-[ext_resource type="Resource" uid="uid://dnc2v44kg3h4n" path="res://words/yesno.tres" id="22_6nglk"]
-[ext_resource type="Resource" uid="uid://d2fpru5dxdkn7" path="res://words/names/satoshi.tres" id="22_hhcpw"]
 [ext_resource type="Resource" uid="uid://doac1w6r6g8gu" path="res://wordsets/names.tres" id="23_hjwua"]
-[ext_resource type="Resource" uid="uid://b0apv2vic7trq" path="res://words/names/sergey.tres" id="23_mxvw5"]
-[ext_resource type="Resource" uid="uid://bastk5j6vywta" path="res://words/names/carla.tres" id="24_sqvbp"]
-[ext_resource type="Resource" uid="uid://cprka2i1nixa3" path="res://words/names/jet.tres" id="25_hri7i"]
-[ext_resource type="Resource" uid="uid://bxbelbl7gjph8" path="res://words/relation/is.tres" id="26_hri7i"]
-[ext_resource type="Resource" uid="uid://cwasx6bhxwrif" path="res://words/relation/has.tres" id="27_w3rk5"]
-[ext_resource type="Resource" uid="uid://dlfbhoux80vqx" path="res://words/relation/of.tres" id="28_oye8v"]
-[ext_resource type="Resource" uid="uid://bl6hbwig000gh" path="res://words/relation/on.tres" id="29_40n85"]
-[ext_resource type="Resource" uid="uid://urmbntpqvnc5" path="res://words/names/persephone.tres" id="29_a34eg"]
-[ext_resource type="Resource" uid="uid://dm80bacu5x1w4" path="res://words/names/lana.tres" id="30_4bst2"]
-[ext_resource type="Resource" uid="uid://d3edlcn1dqp4u" path="res://words/names/amber.tres" id="30_ek63v"]
-[ext_resource type="Resource" uid="uid://bmo5tqb3170ya" path="res://words/names/roslyn.tres" id="31_oaklg"]
-[ext_resource type="Resource" uid="uid://cuahmyxc338u" path="res://words/names/Sol.tres" id="32_4bst2"]
 [ext_resource type="Resource" uid="uid://cn1ohxfpyghfp" path="res://wordsets/relation.tres" id="33_5qs2s"]
-[ext_resource type="Resource" uid="uid://bx6icijpwppwb" path="res://words/relation/with.tres" id="33_c2s76"]
-[ext_resource type="Resource" uid="uid://bundrovrtmt71" path="res://words/names/azzy.tres" id="33_oaklg"]
 [ext_resource type="Resource" uid="uid://dhjavqs6w4ifv" path="res://words/feelings/like.tres" id="33_vi5kq"]
 [ext_resource type="Resource" uid="uid://bt0bl5rv5yojj" path="res://words/feelings/hate.tres" id="34_5mkgo"]
 [ext_resource type="Resource" uid="uid://cselogekl2et0" path="res://words/feelings/happy.tres" id="34_y1tbi"]
 [ext_resource type="Resource" uid="uid://cg4wicogw6dfq" path="res://words/feelings/love.tres" id="35_c2s76"]
-[ext_resource type="Resource" uid="uid://cbjufiudcf5hm" path="res://words/names/lesserl.tres" id="35_gdb40"]
-[ext_resource type="Resource" uid="uid://dlgvcg0b22cjh" path="res://words/qualities general/quantities.tres" id="35_ny7u2"]
-[ext_resource type="Resource" uid="uid://balxi113l34uq" path="res://words/names/rho.tres" id="36_8h1yq"]
 [ext_resource type="Resource" uid="uid://d3443xvk4upu7" path="res://words/feelings/want.tres" id="36_f4ese"]
-[ext_resource type="Resource" uid="uid://bns51dlk0gsx4" path="res://words/qualities general/easy.tres" id="36_x3yn0"]
-[ext_resource type="Resource" uid="uid://cd882g1ylklnu" path="res://words/qualities general/hard.tres" id="37_1w2xm"]
-[ext_resource type="Resource" uid="uid://balh2vkj3sfar" path="res://words/names/archra.tres" id="37_fykug"]
-[ext_resource type="Resource" uid="uid://dgaxrsx2yxrdx" path="res://words/names/jo.tres" id="38_8qby0"]
-[ext_resource type="Resource" uid="uid://dgqol2hor4vcj" path="res://words/relation/do.tres" id="38_nn00d"]
 [ext_resource type="Resource" uid="uid://wwibkiets4w6" path="res://words/feelings/fear.tres" id="38_rchyr"]
-[ext_resource type="Resource" uid="uid://gbg67afu48b0" path="res://words/qualities general/good.tres" id="38_x3yn0"]
-[ext_resource type="Resource" uid="uid://o4q2t48glk5g" path="res://words/names/SillySlime.tres" id="39_lo0ny"]
 [ext_resource type="Resource" uid="uid://d8jlxsls1bpo" path="res://words/feelings/tired.tres" id="39_pljue"]
-[ext_resource type="Resource" uid="uid://bwoaduwdhnu6q" path="res://words/names/soulful_forge.tres" id="43_qwha1"]
-[ext_resource type="Resource" uid="uid://da8ecehnmny7w" path="res://words/relation/to.tres" id="44_cfjnh"]
 [ext_resource type="Resource" uid="uid://dt1ahvkamnplm" path="res://words/objects/board.tres" id="45_f4ese"]
-[ext_resource type="Resource" uid="uid://cfaj7hiqr1pdp" path="res://words/relation/need.tres" id="46_oy6xi"]
 [ext_resource type="Resource" uid="uid://doiwxx0qroa7j" path="res://words/objects/bed.tres" id="46_rchyr"]
-[ext_resource type="Resource" uid="uid://dulg3ao34gjhd" path="res://words/relation/not.tres" id="47_a43ws"]
 [ext_resource type="Resource" uid="uid://xoqq64v4qrt0" path="res://words/objects/computer.tres" id="47_nx4yo"]
 [ext_resource type="Resource" uid="uid://1we22odg1x82" path="res://words/objects/home.tres" id="48_5tfui"]
-[ext_resource type="Resource" uid="uid://c2mn20u5rhumb" path="res://words/relation/only.tres" id="48_aoymy"]
 [ext_resource type="Resource" uid="uid://c08mg00vnah6d" path="res://words/action/help.tres" id="49_g4yo4"]
-[ext_resource type="Resource" uid="uid://r6kyjp570fvj" path="res://words/relation/if.tres" id="49_xkfyu"]
 [ext_resource type="Resource" uid="uid://cmbxcf60ipp3v" path="res://words/action/talk.tres" id="50_im7ls"]
 [ext_resource type="Resource" uid="uid://m0yiuldyoslv" path="res://words/action/wait.tres" id="51_a34eg"]
 [ext_resource type="Resource" uid="uid://bmn0gnpgjmvfd" path="res://words/action/try.tres" id="52_via5u"]
 [ext_resource type="Resource" uid="uid://cwws4jrqfavgb" path="res://words/action/make.tres" id="53_im7ls"]
-[ext_resource type="Resource" uid="uid://cbe1qofms6g5s" path="res://words/relation/again.tres" id="53_uy73y"]
-[ext_resource type="Resource" uid="uid://c7jh2rxnvben5" path="res://words/relation/should.tres" id="54_cxcit"]
 [ext_resource type="Resource" uid="uid://dktm77pwg8010" path="res://words/feelings/sad.tres" id="55_ady3b"]
-[ext_resource type="Resource" uid="uid://s8dvfh2vchmd" path="res://words/relation/maybe.tres" id="56_dsf7v"]
-[ext_resource type="Resource" uid="uid://dyocaiogt346y" path="res://words/relation/can.tres" id="57_dsf7v"]
 [ext_resource type="Resource" uid="uid://dqspgcjd4njs8" path="res://wordsets/feelings.tres" id="57_r8p3m"]
 [ext_resource type="Resource" uid="uid://bj3affv4dxlb" path="res://words/feelings/hurt.tres" id="57_sef48"]
-[ext_resource type="Resource" uid="uid://duvj4e4mwh8xk" path="res://words/relation/false.tres" id="58_ucq2w"]
-[ext_resource type="Resource" uid="uid://bbdwh8ihwqxwe" path="res://words/qualities general/messy.tres" id="59_a43ws"]
-[ext_resource type="Resource" uid="uid://bymj8iugc1ele" path="res://words/relation/true.tres" id="59_i4gpc"]
-[ext_resource type="Resource" uid="uid://diis1836pono" path="res://words/qualities general/bad.tres" id="60_aoymy"]
-[ext_resource type="Resource" uid="uid://lfqel4vtmix0" path="res://words/relation/except.tres" id="60_i4gpc"]
-[ext_resource type="Resource" uid="uid://lwpveiellk4w" path="res://words/relation/as.tres" id="61_a7p2d"]
 [ext_resource type="Resource" uid="uid://cw1ajlt66j4rt" path="res://words/feelings/miss.tres" id="62_deygs"]
-[ext_resource type="Resource" uid="uid://cs4l0mxrrhgww" path="res://words/relation/about.tres" id="63_jdtyp"]
 [ext_resource type="Resource" uid="uid://8sxc65f3svpu" path="res://words/emphasis/fuck.tres" id="63_wrbn1"]
 [ext_resource type="Resource" uid="uid://dl8u7j24pd88" path="res://words/feelings/fun.tres" id="64_al55t"]
 [ext_resource type="Resource" uid="uid://bjir2ij3kxc4r" path="res://words/emphasis/hell.tres" id="64_cfjnh"]
 [ext_resource type="Resource" uid="uid://b35cpnufxi8rd" path="res://words/action/work.tres" id="64_mplfx"]
-[ext_resource type="Resource" uid="uid://bonfpcbdgdgr0" path="res://words/relation/also.tres" id="64_s1eck"]
 [ext_resource type="Resource" uid="uid://bn1v0p5lnor0y" path="res://words/emphasis/shit.tres" id="65_mplfx"]
-[ext_resource type="Resource" uid="uid://cxld2sckqppam" path="res://words/relation/too.tres" id="66_7luwo"]
-[ext_resource type="Resource" uid="uid://dlj3qqaru1p7t" path="res://words/concepts/time.tres" id="67_mitij"]
-[ext_resource type="Resource" uid="uid://4618407uag11" path="res://words/concepts/evotar.tres" id="69_rvpn4"]
-[ext_resource type="Resource" uid="uid://dyugkknsuejqm" path="res://words/concepts/crosscode.tres" id="70_2gl7k"]
-[ext_resource type="Resource" uid="uid://dindqjke6f2yc" path="res://words/time/now.tres" id="71_bf5p3"]
-[ext_resource type="Resource" uid="uid://c13ggevm50ldl" path="res://words/people words/friend.tres" id="71_wnkxs"]
 [ext_resource type="Resource" uid="uid://c1dqvol0a1jai" path="res://words/objects/coffee.tres" id="72_8dw04"]
-[ext_resource type="Resource" uid="uid://cyw4awfdsehv4" path="res://words/people words/kind.tres" id="72_8qby0"]
-[ext_resource type="Resource" uid="uid://dbgmdtyo14om7" path="res://words/time/later.tres" id="72_ady3b"]
-[ext_resource type="Resource" uid="uid://q7yuffkbsc8s" path="res://words/people words/lover.tres" id="73_lo0ny"]
-[ext_resource type="Resource" uid="uid://0l6g5c50hywc" path="res://words/time/morning.tres" id="74_2gl7k"]
 [ext_resource type="Resource" uid="uid://cmp1wqrwors1t" path="res://words/feelings/worry.tres" id="74_2l42k"]
-[ext_resource type="Resource" uid="uid://cwvxnom5lj7ih" path="res://words/people words/mean.tres" id="74_mitij"]
 [ext_resource type="Resource" uid="uid://bhb2bwsud26sa" path="res://wordsets/qualities.tres" id="74_wwk8v"]
-[ext_resource type="Resource" uid="uid://bmkpmfmqhewdk" path="res://words/time/night.tres" id="75_bf5p3"]
 [ext_resource type="Resource" uid="uid://ucshi5wxjity" path="res://words/feelings/upset.tres" id="75_s1eck"]
-[ext_resource type="Resource" uid="uid://bpk4meqe0rfsn" path="res://words/concepts/word.tres" id="76_tjmm3"]
-[ext_resource type="Resource" uid="uid://brgptxr38t5ha" path="res://words/qualities general/deserve.tres" id="77_md2r7"]
-[ext_resource type="Resource" uid="uid://crhjpkpn7ix7v" path="res://words/qualities general/slow.tres" id="79_08030"]
-[ext_resource type="Resource" uid="uid://g2b7tsvchw0j" path="res://words/concepts/archipelago.tres" id="79_b1va2"]
 [ext_resource type="Resource" uid="uid://ds7r45f6ou772" path="res://words/feelings/hope.tres" id="79_mixfv"]
-[ext_resource type="Resource" uid="uid://bwyje64i6sux0" path="res://words/concepts/game.tres" id="80_8gn08"]
 [ext_resource type="Resource" uid="uid://l5mr0m4k7cgd" path="res://words/feelings/care.tres" id="80_elw4l"]
-[ext_resource type="Resource" uid="uid://dq4jjrnj6ybow" path="res://words/qualities general/fast.tres" id="80_vybqf"]
-[ext_resource type="Resource" uid="uid://w8s5qr6dfw3h" path="res://words/concepts/item.tres" id="81_llcqu"]
 [ext_resource type="Resource" uid="uid://cf6dfenwhfmw1" path="res://words/feelings/feel.tres" id="81_wwk8v"]
-[ext_resource type="Resource" uid="uid://be3a2n7bc85u7" path="res://words/qualities general/superlatives.tres" id="81_xnlf2"]
-[ext_resource type="Resource" uid="uid://hdpy22rbjrkx" path="res://words/qualities general/still.tres" id="82_eho1g"]
-[ext_resource type="Resource" uid="uid://67jw53didkc4" path="res://words/qualities general/manual.tres" id="83_xk7tw"]
 [ext_resource type="Resource" uid="uid://55582f2ntw4n" path="res://words/action/think.tres" id="84_aoqpd"]
 [ext_resource type="Resource" uid="uid://b121mvmpqcspy" path="res://words/action/sleep.tres" id="85_m6lip"]
-[ext_resource type="Resource" uid="uid://cmnev8q3epiw0" path="res://words/concepts/skill.tres" id="86_67x5q"]
 [ext_resource type="Resource" uid="uid://cm0niiuf8edkp" path="res://words/action/wake.tres" id="87_slndv"]
-[ext_resource type="Resource" uid="uid://cdjmcev4r7fow" path="res://words/concepts/problem.tres" id="87_yaiuy"]
-[ext_resource type="Resource" uid="uid://1xchglnefnuu" path="res://words/qualities general/powerful.tres" id="90_nsoiq"]
 [ext_resource type="Resource" uid="uid://cwy6diqdmu07n" path="res://words/action/play.tres" id="91_5cpvc"]
-[ext_resource type="Resource" uid="uid://kkpxctrnrmbw" path="res://words/qualities general/okay.tres" id="92_8hdu8"]
-[ext_resource type="Resource" uid="uid://trnf83gnvkin" path="res://words/concepts/mind.tres" id="92_gbxmp"]
 [ext_resource type="Resource" uid="uid://cek66cxdhy6uj" path="res://wordsets/objects.tres" id="92_wwk8v"]
-[ext_resource type="Resource" uid="uid://utqvds8nr0sc" path="res://words/qualities general/cursed.tres" id="93_ergdg"]
-[ext_resource type="Resource" uid="uid://bxbwiniqmlefu" path="res://words/concepts/system.tres" id="94_h0r08"]
-[ext_resource type="Resource" uid="uid://c2wbxdvb72o6l" path="res://words/people words/sidwell.tres" id="95_rg2x5"]
-[ext_resource type="Resource" uid="uid://chxqa0ebfro3x" path="res://words/concepts/plural.tres" id="95_uecmj"]
-[ext_resource type="Resource" uid="uid://cc5337xwqeq3p" path="res://words/people words/manuela.tres" id="96_5cpvc"]
 [ext_resource type="Resource" uid="uid://dkbvqv4tcoc55" path="res://words/objects/blood.tres" id="96_mlps3"]
-[ext_resource type="Resource" uid="uid://degw6i3ni3dtg" path="res://words/qualities general/straight.tres" id="96_tldl8"]
-[ext_resource type="Resource" uid="uid://bxpe54407fd1q" path="res://words/qualities general/strange.tres" id="97_xnuy3"]
 [ext_resource type="Resource" uid="uid://d1lyobqqjwgv2" path="res://words/action/hit.tres" id="100_xbxht"]
 [ext_resource type="Resource" uid="uid://dlt6vb5icgcni" path="res://wordsets/concepts.tres" id="101_ncbpu"]
-[ext_resource type="Resource" uid="uid://cee16e2k3y6l8" path="res://words/time/day.tres" id="104_h7qxs"]
 [ext_resource type="Resource" uid="uid://djo27fgtdu7e" path="res://words/objects/machine.tres" id="104_iiua1"]
 [ext_resource type="Resource" uid="uid://by8bbpveh6mtm" path="res://words/action/use.tres" id="104_rkgid"]
 [ext_resource type="Resource" uid="uid://c62nlvuxqmk4e" path="res://words/objects/robot.tres" id="105_6qke2"]
-[ext_resource type="Resource" uid="uid://dsbqt21jvurl8" path="res://words/concepts/art.tres" id="105_rngq8"]
-[ext_resource type="Resource" uid="uid://cn0yo5yp463y0" path="res://words/time/afternoon.tres" id="105_vq823"]
-[ext_resource type="Resource" uid="uid://bjuo6b65x6eo4" path="res://words/time/recent.tres" id="106_vq823"]
-[ext_resource type="Resource" uid="uid://d8ib20lcqxx6" path="res://words/concepts/life.tres" id="112_s0vbp"]
 [ext_resource type="Resource" uid="uid://72aygwkur5kx" path="res://words/action/show.tres" id="115_ep5lf"]
-[ext_resource type="Resource" uid="uid://c6yuxtpcf3qex" path="res://words/concepts/horror.tres" id="115_obdul"]
-[ext_resource type="Resource" uid="uid://ct4j2ius486ay" path="res://words/concepts/vintagevoidcraft.tres" id="116_aon1w"]
-[ext_resource type="Resource" uid="uid://ch3i2f7vc7ueu" path="res://words/concepts/story.tres" id="117_aon1w"]
-[ext_resource type="Resource" uid="uid://bvbsn7qnqjm0r" path="res://words/people words/thank.tres" id="117_uecmj"]
-[ext_resource type="Resource" uid="uid://mb84oawb4pd3" path="res://words/concepts/self.tres" id="118_alj7c"]
-[ext_resource type="Resource" uid="uid://2ab4wek1pj2s" path="res://words/concepts/disaster.tres" id="120_biiag"]
-[ext_resource type="Resource" uid="uid://7c8710c1b0pm" path="res://words/people words/gender_id.tres" id="121_marsu"]
 [ext_resource type="Resource" uid="uid://bxtokgrnh5b1a" path="res://words/action/choose.tres" id="121_qyhqv"]
-[ext_resource type="Resource" uid="uid://bumyk5t3lupom" path="res://words/people words/girl.tres" id="122_imbc2"]
-[ext_resource type="Resource" uid="uid://cb2uor8mtu1r8" path="res://words/people words/boy.tres" id="123_imbc2"]
-[ext_resource type="Resource" uid="uid://cgxvppfcu5htc" path="res://words/people words/enby.tres" id="124_6xmvy"]
-[ext_resource type="Resource" uid="uid://27epxxqlcrmo" path="res://words/concepts/crime.tres" id="125_myh4s"]
 [ext_resource type="Resource" uid="uid://bxprkty03rcib" path="res://words/action/draw.tres" id="127_k08b2"]
 [ext_resource type="Resource" uid="uid://dpgtf68h75kh8" path="res://wordsets/time.tres" id="129_ush3o"]
 [ext_resource type="Resource" uid="uid://cwi3jgybkjb1y" path="res://words/action/pet.tres" id="132_0tmpl"]
 [ext_resource type="Resource" uid="uid://dj41f4jneywt5" path="res://words/emphasis/yay.tres" id="134_evvf3"]
 [ext_resource type="Script" uid="uid://tho3cvl4j4qx" path="res://recent_list.gd" id="135_gi3ub"]
-[ext_resource type="Resource" uid="uid://dyk1yivokr2ju" path="res://words/time/eventually.tres" id="135_xnps6"]
-[ext_resource type="Resource" uid="uid://j4p2qde2h7t2" path="res://words/time/soon.tres" id="136_a70tg"]
 [ext_resource type="Resource" uid="uid://cd52se6yu51vl" path="res://wordsets/actions.tres" id="140_j3xfc"]
 [ext_resource type="Resource" uid="uid://df70w47j0pwq" path="res://words/action/take.tres" id="142_t7kw1"]
 [ext_resource type="Resource" uid="uid://soivx3x0cj1x" path="res://words/action/give.tres" id="144_pxy3g"]
-[ext_resource type="Resource" uid="uid://c1ijy88y48k1r" path="res://words/people words/person.tres" id="148_c0c5d"]
-[ext_resource type="Resource" uid="uid://cgssn1xsty4j4" path="res://words/people words/tone.tres" id="151_8um1n"]
 [ext_resource type="Resource" uid="uid://dlkegkrxd8cen" path="res://words/action/go.tres" id="151_r8p3m"]
 [ext_resource type="Resource" uid="uid://ci7ggv7u2p772" path="res://wordsets/people_words.tres" id="154_a70tg"]
 [ext_resource type="Resource" uid="uid://petp2r7mu5cn" path="res://words/emphasis/oh.tres" id="156_qeds0"]
 [ext_resource type="Resource" uid="uid://bpoxxdg56kuvm" path="res://words/action/run.tres" id="156_uf2n2"]
-[ext_resource type="Resource" uid="uid://dcmfxdym6vwta" path="res://words/people words/gay.tres" id="157_05tku"]
 [ext_resource type="Resource" uid="uid://dmp35fxfwsimj" path="res://words/action/throw.tres" id="157_xurl6"]
-[ext_resource type="Resource" uid="uid://cq2pxtvoimbwc" path="res://words/people words/lesbian.tres" id="158_fkiyk"]
-[ext_resource type="Resource" uid="uid://d4b6ncagl0wt0" path="res://words/people words/sapphic.tres" id="159_cwp32"]
-[ext_resource type="Resource" uid="uid://6lopdrlf5ymm" path="res://words/people words/bi-pan.tres" id="160_6ibml"]
-[ext_resource type="Resource" uid="uid://ntjb0lisegu" path="res://words/people words/sarcasm.tres" id="166_6qke2"]
-[ext_resource type="Resource" uid="uid://bxvkid3806cvf" path="res://words/people words/Ortet.tres" id="169_s2bl2"]
-[ext_resource type="Resource" uid="uid://b8ro8q4y0oijp" path="res://words/people words/Ramet.tres" id="170_r8p3m"]
 [ext_resource type="Resource" uid="uid://vil55je5x678" path="res://words/people words/sorry.tres" id="175_a70tg"]
 [ext_resource type="Resource" uid="uid://ckxyrpcrwxd8s" path="res://wordsets/emphasis.tres" id="175_uf2n2"]
 [ext_resource type="Texture2D" uid="uid://bvywxjd20dqm" path="res://textures/copy.png" id="184_ush3o"]
@@ -287,7 +172,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("3_uf2n2")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("16_40n85"), ExtResource("2_cm0pq"), ExtResource("18_sph85"), ExtResource("19_o7g6l"), ExtResource("20_ady3b"), ExtResource("21_aoqpd"), ExtResource("22_6nglk")])
 is_common = true
 
 [node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
@@ -323,7 +207,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("23_hjwua")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("2_cm0pq"), ExtResource("16_devvj"), ExtResource("17_3b0ty"), ExtResource("18_bg4s2"), ExtResource("19_hhcpw"), ExtResource("21_bg4s2"), ExtResource("22_hhcpw"), ExtResource("23_mxvw5"), ExtResource("24_sqvbp"), ExtResource("25_hri7i"), ExtResource("29_a34eg"), ExtResource("30_4bst2"), ExtResource("30_ek63v"), ExtResource("31_oaklg"), ExtResource("32_4bst2"), ExtResource("33_oaklg"), ExtResource("35_gdb40"), ExtResource("36_8h1yq"), ExtResource("37_fykug"), ExtResource("38_8qby0"), ExtResource("39_lo0ny"), ExtResource("43_qwha1")])
 
 [node name="Panel3" type="Panel" parent="HBoxContainer/VBoxContainer"]
 layout_mode = 2
@@ -351,7 +234,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("33_5qs2s")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("38_nn00d"), ExtResource("26_hri7i"), ExtResource("27_w3rk5"), ExtResource("28_oye8v"), ExtResource("29_40n85"), ExtResource("33_c2s76"), ExtResource("49_xkfyu"), ExtResource("35_c2s76"), ExtResource("44_cfjnh"), ExtResource("46_oy6xi"), ExtResource("47_a43ws"), ExtResource("48_aoymy"), ExtResource("53_uy73y"), ExtResource("54_cxcit"), ExtResource("56_dsf7v"), ExtResource("57_dsf7v"), ExtResource("58_ucq2w"), ExtResource("59_i4gpc"), ExtResource("60_i4gpc"), ExtResource("61_a7p2d"), ExtResource("63_jdtyp"), ExtResource("64_s1eck"), ExtResource("66_7luwo")])
 
 [node name="Feel" type="ScrollContainer" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false
@@ -379,7 +261,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("74_wwk8v")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("35_ny7u2"), ExtResource("81_xnlf2"), ExtResource("36_x3yn0"), ExtResource("37_1w2xm"), ExtResource("38_x3yn0"), ExtResource("59_a43ws"), ExtResource("60_aoymy"), ExtResource("77_md2r7"), ExtResource("79_08030"), ExtResource("80_vybqf"), ExtResource("82_eho1g"), ExtResource("83_xk7tw"), ExtResource("96_tldl8"), ExtResource("90_nsoiq"), ExtResource("92_8hdu8"), ExtResource("93_ergdg"), ExtResource("97_xnuy3")])
 
 [node name="Objs" type="ScrollContainer" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false
@@ -407,7 +288,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("101_ncbpu")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("67_mitij"), ExtResource("69_rvpn4"), ExtResource("70_2gl7k"), ExtResource("76_tjmm3"), ExtResource("79_b1va2"), ExtResource("80_8gn08"), ExtResource("81_llcqu"), ExtResource("86_67x5q"), ExtResource("87_yaiuy"), ExtResource("92_gbxmp"), ExtResource("95_uecmj"), ExtResource("94_h0r08"), ExtResource("105_rngq8"), ExtResource("112_s0vbp"), ExtResource("115_obdul"), ExtResource("116_aon1w"), ExtResource("117_aon1w"), ExtResource("118_alj7c"), ExtResource("120_biiag"), ExtResource("125_myh4s")])
 
 [node name="Time" type="ScrollContainer" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false
@@ -421,7 +301,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("129_ush3o")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("67_mitij"), ExtResource("72_ady3b"), ExtResource("74_2gl7k"), ExtResource("75_bf5p3"), ExtResource("51_a34eg"), ExtResource("71_bf5p3"), ExtResource("104_h7qxs"), ExtResource("105_vq823"), ExtResource("106_vq823"), ExtResource("135_xnps6"), ExtResource("136_a70tg")])
 
 [node name="Act" type="ScrollContainer" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false
@@ -449,7 +328,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("154_a70tg")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("148_c0c5d"), ExtResource("151_8um1n"), ExtResource("71_wnkxs"), ExtResource("73_lo0ny"), ExtResource("72_8qby0"), ExtResource("166_6qke2"), ExtResource("74_mitij"), ExtResource("20_ady3b"), ExtResource("21_aoqpd"), ExtResource("95_rg2x5"), ExtResource("96_5cpvc"), ExtResource("117_uecmj"), ExtResource("121_marsu"), ExtResource("122_imbc2"), ExtResource("123_imbc2"), ExtResource("124_6xmvy"), ExtResource("157_05tku"), ExtResource("158_fkiyk"), ExtResource("159_cwp32"), ExtResource("160_6ibml"), ExtResource("169_s2bl2"), ExtResource("170_r8p3m"), ExtResource("175_a70tg")])
 
 [node name="Emphasis" type="ScrollContainer" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false

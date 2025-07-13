@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_c4nk5")
 display_name = "(quantities)"
-permutations = Array[String](["lots", "lot", "some", "very", "none", "many", "all", "more", "less", "half"])
+permutations = Array[String](["lots", "lot", "some", "very", "none", "many", "all", "more", "less", "half", "any", "much"])
 nospace_after = false
 nospace_before = false
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"
