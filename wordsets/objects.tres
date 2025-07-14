@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=12 format=3 uid="uid://cek66cxdhy6uj"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=13 format=3 uid="uid://cek66cxdhy6uj"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_y3bhx"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_xjqdd"]
@@ -11,9 +11,10 @@
 [ext_resource type="Resource" uid="uid://dkbvqv4tcoc55" path="res://words/objects/blood.tres" id="8_eck1k"]
 [ext_resource type="Resource" uid="uid://djo27fgtdu7e" path="res://words/objects/machine.tres" id="9_xrmjk"]
 [ext_resource type="Resource" uid="uid://c62nlvuxqmk4e" path="res://words/objects/robot.tres" id="10_501dj"]
+[ext_resource type="Resource" uid="uid://buadkh45xm7il" path="res://words/objects/wire.tres" id="12_jgp3l"]
 
 [resource]
 script = ExtResource("1_y3bhx")
-words = Array[ExtResource("2_xjqdd")]([ExtResource("3_6ygyj"), ExtResource("4_irj0t"), ExtResource("5_irj0t"), ExtResource("5_jgp3l"), ExtResource("6_5n814"), ExtResource("7_6iogk"), ExtResource("8_eck1k"), ExtResource("9_xrmjk"), ExtResource("10_501dj")])
+words = Array[ExtResource("2_xjqdd")]([ExtResource("3_6ygyj"), ExtResource("4_irj0t"), ExtResource("5_irj0t"), ExtResource("5_jgp3l"), ExtResource("6_5n814"), ExtResource("7_6iogk"), ExtResource("8_eck1k"), ExtResource("9_xrmjk"), ExtResource("10_501dj"), ExtResource("12_jgp3l")])
 is_common = false
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"

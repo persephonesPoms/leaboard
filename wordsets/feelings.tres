@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=21 format=3 uid="uid://dqspgcjd4njs8"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=22 format=3 uid="uid://dqspgcjd4njs8"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_hty12"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_lvur7"]
@@ -20,9 +20,10 @@
 [ext_resource type="Resource" uid="uid://d3443xvk4upu7" path="res://words/feelings/want.tres" id="18_2body"]
 [ext_resource type="Resource" uid="uid://vil55je5x678" path="res://words/people words/sorry.tres" id="19_atn37"]
 [ext_resource type="Resource" uid="uid://d3ovxiv663e6j" path="res://words/feelings/nervous.tres" id="20_rsdwu"]
+[ext_resource type="Resource" uid="uid://o6t1v7jjm6td" path="res://words/feelings/surprise.tres" id="21_w03jg"]
 
 [resource]
 script = ExtResource("1_hty12")
-words = Array[ExtResource("2_lvur7")]([ExtResource("3_5qbq4"), ExtResource("4_atn37"), ExtResource("5_rsdwu"), ExtResource("6_w03jg"), ExtResource("8_7uaoo"), ExtResource("9_gwkea"), ExtResource("10_ki8kn"), ExtResource("11_l6217"), ExtResource("12_allfl"), ExtResource("13_6sjrk"), ExtResource("14_mw4jn"), ExtResource("15_jj6hp"), ExtResource("16_uh645"), ExtResource("17_6rxc6"), ExtResource("18_2body"), ExtResource("7_v8m84"), ExtResource("19_atn37"), ExtResource("20_rsdwu")])
+words = Array[ExtResource("2_lvur7")]([ExtResource("3_5qbq4"), ExtResource("4_atn37"), ExtResource("5_rsdwu"), ExtResource("6_w03jg"), ExtResource("8_7uaoo"), ExtResource("9_gwkea"), ExtResource("10_ki8kn"), ExtResource("11_l6217"), ExtResource("12_allfl"), ExtResource("13_6sjrk"), ExtResource("14_mw4jn"), ExtResource("15_jj6hp"), ExtResource("16_uh645"), ExtResource("17_6rxc6"), ExtResource("18_2body"), ExtResource("7_v8m84"), ExtResource("19_atn37"), ExtResource("20_rsdwu"), ExtResource("21_w03jg")])
 is_common = false
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"
