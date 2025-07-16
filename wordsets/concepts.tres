@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=28 format=3 uid="uid://dlt6vb5icgcni"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=34 format=3 uid="uid://dlt6vb5icgcni"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_yv2po"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_77b1k"]
@@ -27,9 +27,15 @@
 [ext_resource type="Resource" uid="uid://cm1w2p3cognta" path="res://words/concepts/name.tres" id="25_g7m88"]
 [ext_resource type="Resource" uid="uid://dfcgbwg31t06d" path="res://words/concepts/sex.tres" id="26_h47to"]
 [ext_resource type="Resource" uid="uid://bd5x6i1scsk5a" path="res://words/concepts/autism.tres" id="27_segtx"]
+[ext_resource type="Resource" uid="uid://beswjeyyqg70a" path="res://words/concepts/version.tres" id="28_wwvxj"]
+[ext_resource type="Resource" uid="uid://ps4g6lpf8kce" path="res://words/concepts/peace.tres" id="29_4q1ml"]
+[ext_resource type="Resource" uid="uid://bowa4a7q3vaug" path="res://words/concepts/idea.tres" id="30_ihhqy"]
+[ext_resource type="Resource" uid="uid://dafdmx8ayaedq" path="res://words/concepts/canon.tres" id="31_h8py6"]
+[ext_resource type="Resource" uid="uid://dsqlqq836pb2a" path="res://words/concepts/thing.tres" id="32_kulyj"]
+[ext_resource type="Resource" uid="uid://bnhs5ebxsq5w2" path="res://words/concepts/torment.tres" id="33_kulyj"]
 
 [resource]
 script = ExtResource("1_yv2po")
-words = Array[ExtResource("2_77b1k")]([ExtResource("3_jan0q"), ExtResource("4_g57eu"), ExtResource("5_egqms"), ExtResource("6_g7m88"), ExtResource("7_h47to"), ExtResource("8_segtx"), ExtResource("9_wwvxj"), ExtResource("10_4q1ml"), ExtResource("11_ihhqy"), ExtResource("12_ye6vb"), ExtResource("13_h8py6"), ExtResource("14_kulyj"), ExtResource("15_eix56"), ExtResource("16_8yx4i"), ExtResource("17_rkrbe"), ExtResource("18_hqffq"), ExtResource("19_asbvu"), ExtResource("20_qsu28"), ExtResource("21_wm4lb"), ExtResource("22_8qjhx"), ExtResource("23_g57eu"), ExtResource("24_egqms"), ExtResource("25_g7m88"), ExtResource("26_h47to"), ExtResource("27_segtx")])
+words = Array[ExtResource("2_77b1k")]([ExtResource("3_jan0q"), ExtResource("4_g57eu"), ExtResource("5_egqms"), ExtResource("6_g7m88"), ExtResource("7_h47to"), ExtResource("8_segtx"), ExtResource("9_wwvxj"), ExtResource("10_4q1ml"), ExtResource("11_ihhqy"), ExtResource("12_ye6vb"), ExtResource("13_h8py6"), ExtResource("14_kulyj"), ExtResource("15_eix56"), ExtResource("16_8yx4i"), ExtResource("17_rkrbe"), ExtResource("18_hqffq"), ExtResource("19_asbvu"), ExtResource("20_qsu28"), ExtResource("21_wm4lb"), ExtResource("22_8qjhx"), ExtResource("23_g57eu"), ExtResource("24_egqms"), ExtResource("25_g7m88"), ExtResource("26_h47to"), ExtResource("27_segtx"), ExtResource("28_wwvxj"), ExtResource("29_4q1ml"), ExtResource("30_ihhqy"), ExtResource("31_h8py6"), ExtResource("32_kulyj"), ExtResource("33_kulyj")])
 is_common = false
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"
