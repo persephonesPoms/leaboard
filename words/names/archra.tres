@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_jrxr0")
 display_name = "Archra"
-permutations = Array[String](["Archra", "Archra-Lea"])
+permutations = Array[String](["Archra", "Archra-Lea", "Izzy", "Erin"])
 nospace_after = false
 nospace_before = false
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"
