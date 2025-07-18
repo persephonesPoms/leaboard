@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://byfk5xd2cyx4t"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_sg2m7"]
+
+[resource]
+script = ExtResource("1_sg2m7")
+display_name = "front"
+permutations = Array[String](["front", "fronts", "fronting", "fronted", "ahead"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

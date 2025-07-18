@@ -1,4 +1,4 @@
-[gd_scene load_steps=152 format=3 uid="uid://hikpcyjwxype"]
+[gd_scene load_steps=135 format=3 uid="uid://hikpcyjwxype"]
 
 [ext_resource type="Script" uid="uid://c7aya8rf2xwdb" path="res://scene_parent.gd" id="1_r3dj4"]
 [ext_resource type="Script" uid="uid://jp8lpsfa7d6r" path="res://leaboard_container.gd" id="2_y7wsv"]
@@ -76,23 +76,6 @@
 [ext_resource type="Resource" uid="uid://cf6dfenwhfmw1" path="res://words/feelings/feel.tres" id="74_4fdwl"]
 [ext_resource type="Resource" uid="uid://vil55je5x678" path="res://words/people words/sorry.tres" id="75_u2ey2"]
 [ext_resource type="Resource" uid="uid://bhb2bwsud26sa" path="res://wordsets/qualities.tres" id="76_dtjh6"]
-[ext_resource type="Resource" uid="uid://dlgvcg0b22cjh" path="res://words/qualities general/quantities.tres" id="77_20a7v"]
-[ext_resource type="Resource" uid="uid://be3a2n7bc85u7" path="res://words/qualities general/superlatives.tres" id="78_rk3oh"]
-[ext_resource type="Resource" uid="uid://bns51dlk0gsx4" path="res://words/qualities general/easy.tres" id="79_3i003"]
-[ext_resource type="Resource" uid="uid://cd882g1ylklnu" path="res://words/qualities general/hard.tres" id="80_cqnrq"]
-[ext_resource type="Resource" uid="uid://gbg67afu48b0" path="res://words/qualities general/good.tres" id="81_okce6"]
-[ext_resource type="Resource" uid="uid://bbdwh8ihwqxwe" path="res://words/qualities general/messy.tres" id="82_rubjh"]
-[ext_resource type="Resource" uid="uid://diis1836pono" path="res://words/qualities general/bad.tres" id="83_6ogu3"]
-[ext_resource type="Resource" uid="uid://brgptxr38t5ha" path="res://words/qualities general/deserve.tres" id="84_owtft"]
-[ext_resource type="Resource" uid="uid://crhjpkpn7ix7v" path="res://words/qualities general/slow.tres" id="85_wgtsk"]
-[ext_resource type="Resource" uid="uid://dq4jjrnj6ybow" path="res://words/qualities general/fast.tres" id="86_smchw"]
-[ext_resource type="Resource" uid="uid://hdpy22rbjrkx" path="res://words/qualities general/still.tres" id="87_13lap"]
-[ext_resource type="Resource" uid="uid://67jw53didkc4" path="res://words/qualities general/manual.tres" id="88_ycmns"]
-[ext_resource type="Resource" uid="uid://degw6i3ni3dtg" path="res://words/qualities general/straight.tres" id="89_oa4xl"]
-[ext_resource type="Resource" uid="uid://1xchglnefnuu" path="res://words/qualities general/powerful.tres" id="90_cquih"]
-[ext_resource type="Resource" uid="uid://kkpxctrnrmbw" path="res://words/qualities general/okay.tres" id="91_mpw4t"]
-[ext_resource type="Resource" uid="uid://utqvds8nr0sc" path="res://words/qualities general/cursed.tres" id="92_tbxxt"]
-[ext_resource type="Resource" uid="uid://bxpe54407fd1q" path="res://words/qualities general/strange.tres" id="93_ut8m2"]
 [ext_resource type="Resource" uid="uid://cek66cxdhy6uj" path="res://wordsets/objects.tres" id="94_ugd52"]
 [ext_resource type="Resource" uid="uid://dt1ahvkamnplm" path="res://words/objects/board.tres" id="95_x38ch"]
 [ext_resource type="Resource" uid="uid://doiwxx0qroa7j" path="res://words/objects/bed.tres" id="96_jextj"]
@@ -341,7 +324,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("2_y7wsv")
 wordset = ExtResource("76_dtjh6")
-words = Array[ExtResource("5_y08vk")]([ExtResource("77_20a7v"), ExtResource("78_rk3oh"), ExtResource("79_3i003"), ExtResource("80_cqnrq"), ExtResource("81_okce6"), ExtResource("82_rubjh"), ExtResource("83_6ogu3"), ExtResource("84_owtft"), ExtResource("85_wgtsk"), ExtResource("86_smchw"), ExtResource("87_13lap"), ExtResource("88_ycmns"), ExtResource("89_oa4xl"), ExtResource("90_cquih"), ExtResource("91_mpw4t"), ExtResource("92_tbxxt"), ExtResource("93_ut8m2")])
 
 [node name="Objs" type="ScrollContainer" parent="VBoxContainer/Panel/VBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false

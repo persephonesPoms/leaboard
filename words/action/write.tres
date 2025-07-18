@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://ds7dprv2mbnyx"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_65s83"]
+
+[resource]
+script = ExtResource("1_65s83")
+display_name = "write"
+permutations = Array[String](["write", "writing", "wrote", "writes"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"
