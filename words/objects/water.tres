@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://b1kadyp7f8cmf"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_dw2u2"]
+
+[resource]
+script = ExtResource("1_dw2u2")
+display_name = "water"
+permutations = Array[String](["water", "watered", "watering", "waters"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"
