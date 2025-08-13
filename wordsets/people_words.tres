@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=32 format=3 uid="uid://ci7ggv7u2p772"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=33 format=3 uid="uid://ci7ggv7u2p772"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_lb5ki"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_16575"]
@@ -31,9 +31,10 @@
 [ext_resource type="Resource" uid="uid://cme72qm7eu7x6" path="res://words/people words/headmate-alter.tres" id="29_wxgm4"]
 [ext_resource type="Resource" uid="uid://csjo0m6ohowhm" path="res://words/people words/romance.tres" id="30_wxgm4"]
 [ext_resource type="Resource" uid="uid://ck7gbx7ff3i6t" path="res://words/people words/platonic.tres" id="31_g3fos"]
+[ext_resource type="Resource" uid="uid://b0nmfwflq687i" path="res://words/people words/busy.tres" id="32_6mdt3"]
 
 [resource]
 script = ExtResource("1_lb5ki")
-words = Array[ExtResource("2_16575")]([ExtResource("3_o6apa"), ExtResource("4_x4o6e"), ExtResource("5_bxdih"), ExtResource("6_ifaae"), ExtResource("7_wxgm4"), ExtResource("8_g3fos"), ExtResource("9_6mdt3"), ExtResource("10_3m5t3"), ExtResource("11_tvj1v"), ExtResource("12_0xiu8"), ExtResource("13_ln1lw"), ExtResource("14_b6ls6"), ExtResource("15_24b6k"), ExtResource("16_736sf"), ExtResource("17_mt365"), ExtResource("18_ed2qb"), ExtResource("19_cmcpn"), ExtResource("20_dexyo"), ExtResource("21_r7v6c"), ExtResource("22_sb7t6"), ExtResource("23_382j1"), ExtResource("24_u3662"), ExtResource("25_7i053"), ExtResource("26_rc5ga"), ExtResource("27_x4o6e"), ExtResource("28_ifaae"), ExtResource("29_wxgm4"), ExtResource("30_wxgm4"), ExtResource("31_g3fos")])
+words = Array[ExtResource("2_16575")]([ExtResource("3_o6apa"), ExtResource("4_x4o6e"), ExtResource("5_bxdih"), ExtResource("6_ifaae"), ExtResource("7_wxgm4"), ExtResource("8_g3fos"), ExtResource("9_6mdt3"), ExtResource("10_3m5t3"), ExtResource("11_tvj1v"), ExtResource("12_0xiu8"), ExtResource("13_ln1lw"), ExtResource("14_b6ls6"), ExtResource("15_24b6k"), ExtResource("16_736sf"), ExtResource("17_mt365"), ExtResource("18_ed2qb"), ExtResource("19_cmcpn"), ExtResource("20_dexyo"), ExtResource("21_r7v6c"), ExtResource("22_sb7t6"), ExtResource("23_382j1"), ExtResource("24_u3662"), ExtResource("25_7i053"), ExtResource("32_6mdt3"), ExtResource("26_rc5ga"), ExtResource("27_x4o6e"), ExtResource("28_ifaae"), ExtResource("29_wxgm4"), ExtResource("30_wxgm4"), ExtResource("31_g3fos")])
 is_common = false
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"

@@ -4,8 +4,8 @@
 
 [resource]
 script = ExtResource("1_mrn87")
-display_name = "Lesserl"
-permutations = Array[String](["Lesserl", "Less", "Truggy"])
+display_name = "Roe"
+permutations = Array[String](["Roe", "Rho", "ButterCatRho"])
 nospace_after = false
 nospace_before = false
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

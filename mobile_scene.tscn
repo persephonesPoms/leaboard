@@ -1,4 +1,4 @@
-[gd_scene load_steps=111 format=3 uid="uid://hikpcyjwxype"]
+[gd_scene load_steps=106 format=3 uid="uid://hikpcyjwxype"]
 
 [ext_resource type="Script" uid="uid://c7aya8rf2xwdb" path="res://scene_parent.gd" id="1_r3dj4"]
 [ext_resource type="Script" uid="uid://jp8lpsfa7d6r" path="res://leaboard_container.gd" id="2_y7wsv"]
@@ -96,11 +96,6 @@
 [ext_resource type="Resource" uid="uid://cd52se6yu51vl" path="res://wordsets/actions.tres" id="135_aphog"]
 [ext_resource type="Resource" uid="uid://ci7ggv7u2p772" path="res://wordsets/people_words.tres" id="156_c2m6p"]
 [ext_resource type="Resource" uid="uid://ckxyrpcrwxd8s" path="res://wordsets/emphasis.tres" id="177_kpdtg"]
-[ext_resource type="Resource" uid="uid://8sxc65f3svpu" path="res://words/emphasis/fuck.tres" id="178_3nlkr"]
-[ext_resource type="Resource" uid="uid://bjir2ij3kxc4r" path="res://words/emphasis/hell.tres" id="179_oclja"]
-[ext_resource type="Resource" uid="uid://bn1v0p5lnor0y" path="res://words/emphasis/shit.tres" id="180_j7f4t"]
-[ext_resource type="Resource" uid="uid://dj41f4jneywt5" path="res://words/emphasis/yay.tres" id="181_bxk4r"]
-[ext_resource type="Resource" uid="uid://petp2r7mu5cn" path="res://words/emphasis/oh.tres" id="182_0b0b6"]
 [ext_resource type="Script" uid="uid://cvb650b0gvnn3" path="res://output_text.gd" id="183_1p547"]
 [ext_resource type="Texture2D" uid="uid://bvywxjd20dqm" path="res://textures/copy.png" id="184_8se5w"]
 [ext_resource type="Script" uid="uid://djyjh1uen641i" path="res://permutation_panel.gd" id="184_jiobv"]
@@ -379,7 +374,6 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("2_y7wsv")
 wordset = ExtResource("177_kpdtg")
-words = Array[ExtResource("5_y08vk")]([ExtResource("178_3nlkr"), ExtResource("179_oclja"), ExtResource("180_j7f4t"), ExtResource("181_bxk4r"), ExtResource("182_0b0b6")])
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/Panel/VBoxContainer/VBoxContainer"]
 layout_mode = 2
