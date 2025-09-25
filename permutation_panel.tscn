@@ -1,0 +1,67 @@
+[gd_scene load_steps=5 format=3 uid="uid://dn5nrq3nakhdu"]
+
+[ext_resource type="Script" uid="uid://djyjh1uen641i" path="res://permutation_panel.gd" id="1_hoqvw"]
+[ext_resource type="Texture2D" uid="uid://tnjhvs33nrtd" path="res://textures/add.png" id="2_wo3ka"]
+[ext_resource type="Texture2D" uid="uid://dpclqtonryeh4" path="res://textures/delete.png" id="3_46fjp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_40n85"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[node name="PermutationPanel" type="PanelContainer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_40n85")
+script = ExtResource("1_hoqvw")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Confirm" type="Button" parent="VBoxContainer/HBoxContainer"]
+visible = false
+layout_mode = 2
+icon = ExtResource("2_wo3ka")
+
+[node name="Label" type="Label" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Permutations"
+
+[node name="Close" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = " X "
+
+[node name="Delete" type="Button" parent="VBoxContainer/HBoxContainer"]
+visible = false
+layout_mode = 2
+icon = ExtResource("3_46fjp")
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Confirm" to="." method="_on_confirm_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Close" to="." method="_on_close_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Delete" to="." method="_on_delete_pressed"]

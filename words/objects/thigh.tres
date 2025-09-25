@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://bumv0qr02osdy"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_p5ntd"]
+
+[resource]
+script = ExtResource("1_p5ntd")
+display_name = "thigh"
+permutations = Array[String](["thigh", "thighs"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

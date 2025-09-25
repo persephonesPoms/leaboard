@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://lc71fv7h4jlp"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_ld86t"]
+
+[resource]
+script = ExtResource("1_ld86t")
+display_name = "face"
+permutations = Array[String](["face", "faces", "facing", "faced"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

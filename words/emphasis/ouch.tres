@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://cn4i2ski1rn0i"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_cembn"]
+
+[resource]
+script = ExtResource("1_cembn")
+display_name = "ouch"
+permutations = Array[String](["ouch", "ow", "owie", "ouchie", "ouchies", "owies"])
+nospace_after = false
+nospace_before = false
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

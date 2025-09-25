@@ -1,9 +1,8 @@
-[gd_scene load_steps=78 format=3 uid="uid://3px1a4wr0ljx"]
+[gd_scene load_steps=79 format=3 uid="uid://3px1a4wr0ljx"]
 
 [ext_resource type="Script" uid="uid://cvb650b0gvnn3" path="res://output_text.gd" id="1_glv2v"]
 [ext_resource type="Script" uid="uid://c7aya8rf2xwdb" path="res://scene_parent.gd" id="1_xurl6"]
 [ext_resource type="Resource" uid="uid://726ipefuntf8" path="res://wordsets/articlespronouns.tres" id="2_livak"]
-[ext_resource type="Script" uid="uid://djyjh1uen641i" path="res://permutation_panel.gd" id="2_uu6xs"]
 [ext_resource type="Resource" uid="uid://b1t8o7q3lclpt" path="res://words/common.tres" id="3_uf2n2"]
 [ext_resource type="Script" uid="uid://jp8lpsfa7d6r" path="res://leaboard_container.gd" id="13_j4qnp"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="14_sc1dx"]
@@ -35,8 +34,11 @@
 [ext_resource type="Resource" uid="uid://bjir2ij3kxc4r" path="res://words/emphasis/hell.tres" id="64_cfjnh"]
 [ext_resource type="Resource" uid="uid://b35cpnufxi8rd" path="res://words/action/work.tres" id="64_mplfx"]
 [ext_resource type="Resource" uid="uid://bn1v0p5lnor0y" path="res://words/emphasis/shit.tres" id="65_mplfx"]
+[ext_resource type="PackedScene" uid="uid://54trtbb3h5ya" path="res://custom_word_panel.tscn" id="68_aoymy"]
 [ext_resource type="Resource" uid="uid://c1dqvol0a1jai" path="res://words/objects/coffee.tres" id="72_8dw04"]
+[ext_resource type="PackedScene" uid="uid://dn5nrq3nakhdu" path="res://permutation_panel.tscn" id="73_oy6xi"]
 [ext_resource type="Resource" uid="uid://cmp1wqrwors1t" path="res://words/feelings/worry.tres" id="74_2l42k"]
+[ext_resource type="Script" uid="uid://cny2e466xf4dq" path="res://delete_custom_word.gd" id="74_oy6xi"]
 [ext_resource type="Resource" uid="uid://bhb2bwsud26sa" path="res://wordsets/qualities.tres" id="74_wwk8v"]
 [ext_resource type="Resource" uid="uid://ucshi5wxjity" path="res://words/feelings/upset.tres" id="75_s1eck"]
 [ext_resource type="Resource" uid="uid://ds7r45f6ou772" path="res://words/feelings/hope.tres" id="79_mixfv"]
@@ -88,17 +90,6 @@ bg_color = Color(0.366284, 0.397693, 0.582118, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_glv2v"]
 bg_color = Color(0.59961, 0.711647, 0.910849, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_40n85"]
-bg_color = Color(0, 0, 0, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-expand_margin_left = 2.0
-expand_margin_top = 2.0
-expand_margin_right = 2.0
-expand_margin_bottom = 2.0
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -274,7 +265,7 @@ size_flags_vertical = 3
 alignment = 1
 script = ExtResource("13_j4qnp")
 wordset = ExtResource("92_wwk8v")
-words = Array[ExtResource("14_sc1dx")]([ExtResource("45_f4ese"), ExtResource("46_rchyr"), ExtResource("47_nx4yo"), ExtResource("48_5tfui"), ExtResource("72_8dw04"), ExtResource("96_mlps3"), ExtResource("104_iiua1"), ExtResource("105_6qke2")])
+words = Array[ExtResource("14_sc1dx")]([ExtResource("45_f4ese"), ExtResource("46_rchyr"), ExtResource("47_nx4yo"), ExtResource("48_5tfui"), ExtResource("72_8dw04"), ExtResource("96_mlps3"), ExtResource("104_iiua1"), ExtResource("105_6qke2"), null])
 
 [node name="Conc" type="ScrollContainer" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer"]
 visible = false
@@ -343,6 +334,10 @@ script = ExtResource("13_j4qnp")
 wordset = ExtResource("175_uf2n2")
 words = Array[ExtResource("14_sc1dx")]([ExtResource("63_wrbn1"), ExtResource("64_cfjnh"), ExtResource("65_mplfx"), ExtResource("134_evvf3"), ExtResource("156_qeds0")])
 
+[node name="Custom" parent="HBoxContainer/VBoxContainer/Panel3/TabContainer" instance=ExtResource("68_aoymy")]
+visible = false
+layout_mode = 2
+
 [node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_constants/separation = 1
@@ -394,46 +389,20 @@ layout_mode = 2
 alignment = 1
 script = ExtResource("135_gi3ub")
 
-[node name="PermutationPanel" type="PanelContainer" parent="."]
+[node name="PermutationPanel" parent="." instance=ExtResource("73_oy6xi")]
 visible = false
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -20.0
-offset_right = 20.0
-offset_bottom = 20.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_40n85")
-script = ExtResource("2_uu6xs")
+offset_left = -74.5
+offset_right = 74.5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PermutationPanel"]
-layout_mode = 2
-
-[node name="HBoxContainer" type="HBoxContainer" parent="PermutationPanel/VBoxContainer"]
-layout_mode = 2
-
-[node name="Control2" type="Control" parent="PermutationPanel/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
-
-[node name="Label" type="Label" parent="PermutationPanel/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-text = "Permutations"
-
-[node name="Close" type="Button" parent="PermutationPanel/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-text = " X "
-
-[node name="Control" type="Control" parent="PermutationPanel/VBoxContainer/HBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 3
+[node name="ConfirmationDialog" type="ConfirmationDialog" parent="."]
+initial_position = 1
+size = Vector2i(206, 100)
+ok_button_text = "Delete"
+dialog_text = "Really Delete This Word?"
+script = ExtResource("74_oy6xi")
 
 [connection signal="toggled" from="HBoxContainer/Panel/VBoxContainer/CheckButton" to="HBoxContainer/VBoxContainer/HBoxContainer/LineEdit" method="_on_check_button_toggled"]
 [connection signal="pressed" from="HBoxContainer/VBoxContainer/HBoxContainer/Clipboard Button" to="HBoxContainer/VBoxContainer/HBoxContainer/LineEdit" method="_on_clipboard_button_pressed"]
 [connection signal="pressed" from="HBoxContainer/VBoxContainer/HBoxContainer/Clear" to="HBoxContainer/VBoxContainer/HBoxContainer/LineEdit" method="_on_clear_pressed"]
-[connection signal="pressed" from="PermutationPanel/VBoxContainer/HBoxContainer/Close" to="PermutationPanel" method="_on_close_pressed"]
+[connection signal="confirmed" from="ConfirmationDialog" to="ConfirmationDialog" method="_on_confirmed"]

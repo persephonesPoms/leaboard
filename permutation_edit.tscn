@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://dg6bbviyb6qje"]
+
+[ext_resource type="Script" uid="uid://b4phdnx1tqivv" path="res://permutationeditor.gd" id="1_bdurx"]
+
+[node name="PermutationEdit" type="HBoxContainer"]
+offset_right = 68.0
+offset_bottom = 31.0
+script = ExtResource("1_bdurx")
+
+[node name="LineEdit" type="LineEdit" parent="."]
+custom_minimum_size = Vector2(30, 0)
+layout_mode = 2
+placeholder_text = "Permutation"
+expand_to_text_length = true
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+text = "+"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 2
+text = "-"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
