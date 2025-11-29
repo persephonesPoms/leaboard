@@ -5,7 +5,6 @@
 [resource]
 script = ExtResource("1_koks8")
 display_name = "'s"
-permutations = Array[String](["'s", "'re", "'d"])
-nospace_after = false
+permutations = Array[String](["'s", "'re", "'d", "-ful"])
 nospace_before = true
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

@@ -384,6 +384,7 @@ layout_mode = 2
 icon = ExtResource("184_8se5w")
 
 [node name="Button2" type="Button" parent="VBoxContainer/Panel/VBoxContainer/VBoxContainer/HBoxContainer"]
+visible = false
 layout_mode = 2
 icon = ExtResource("185_3x0qj")
 

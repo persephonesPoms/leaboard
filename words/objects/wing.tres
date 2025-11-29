@@ -4,8 +4,6 @@
 
 [resource]
 script = ExtResource("1_qw1tn")
-display_name = "ear"
-permutations = Array[String](["ear", "ears"])
-nospace_after = false
-nospace_before = false
+display_name = "wing"
+permutations = Array[String](["wing", "wings", "winged"])
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

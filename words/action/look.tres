@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://luo21uvf6xlb"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_pcc3p"]
+
+[resource]
+script = ExtResource("1_pcc3p")
+display_name = "look"
+permutations = Array[String](["look", "looking", "looks", "looked"])
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

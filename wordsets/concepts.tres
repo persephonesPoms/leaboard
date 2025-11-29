@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=41 format=3 uid="uid://dlt6vb5icgcni"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=42 format=3 uid="uid://dlt6vb5icgcni"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_yv2po"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_77b1k"]
@@ -40,9 +40,9 @@
 [ext_resource type="Resource" uid="uid://dplj5j45ouxm6" path="res://words/concepts/top.tres" id="38_qsu28"]
 [ext_resource type="Resource" uid="uid://cu43kthajc2w5" path="res://words/concepts/bottom.tres" id="39_wm4lb"]
 [ext_resource type="Resource" uid="uid://b236i6rlctsfk" path="res://words/concepts/reason.tres" id="40_wm4lb"]
+[ext_resource type="Resource" uid="uid://bs0dubigiv8kg" path="res://words/concepts/memory.tres" id="41_8qjhx"]
 
 [resource]
 script = ExtResource("1_yv2po")
-words = Array[ExtResource("2_77b1k")]([ExtResource("3_jan0q"), ExtResource("4_g57eu"), ExtResource("5_egqms"), ExtResource("6_g7m88"), ExtResource("7_h47to"), ExtResource("8_segtx"), ExtResource("9_wwvxj"), ExtResource("10_4q1ml"), ExtResource("11_ihhqy"), ExtResource("12_ye6vb"), ExtResource("13_h8py6"), ExtResource("14_kulyj"), ExtResource("15_eix56"), ExtResource("16_8yx4i"), ExtResource("17_rkrbe"), ExtResource("18_hqffq"), ExtResource("19_asbvu"), ExtResource("20_qsu28"), ExtResource("21_wm4lb"), ExtResource("22_8qjhx"), ExtResource("23_g57eu"), ExtResource("24_egqms"), ExtResource("25_g7m88"), ExtResource("26_h47to"), ExtResource("27_segtx"), ExtResource("28_wwvxj"), ExtResource("29_4q1ml"), ExtResource("30_ihhqy"), ExtResource("31_h8py6"), ExtResource("32_kulyj"), ExtResource("33_kulyj"), ExtResource("34_eix56"), ExtResource("35_rkrbe"), ExtResource("36_hqffq"), ExtResource("37_hqffq"), ExtResource("38_qsu28"), ExtResource("39_wm4lb"), ExtResource("40_wm4lb")])
-is_common = false
+words = Array[ExtResource("2_77b1k")]([ExtResource("3_jan0q"), ExtResource("4_g57eu"), ExtResource("5_egqms"), ExtResource("6_g7m88"), ExtResource("7_h47to"), ExtResource("8_segtx"), ExtResource("9_wwvxj"), ExtResource("10_4q1ml"), ExtResource("11_ihhqy"), ExtResource("12_ye6vb"), ExtResource("13_h8py6"), ExtResource("14_kulyj"), ExtResource("15_eix56"), ExtResource("16_8yx4i"), ExtResource("17_rkrbe"), ExtResource("18_hqffq"), ExtResource("19_asbvu"), ExtResource("20_qsu28"), ExtResource("21_wm4lb"), ExtResource("22_8qjhx"), ExtResource("23_g57eu"), ExtResource("24_egqms"), ExtResource("25_g7m88"), ExtResource("26_h47to"), ExtResource("27_segtx"), ExtResource("28_wwvxj"), ExtResource("29_4q1ml"), ExtResource("30_ihhqy"), ExtResource("31_h8py6"), ExtResource("32_kulyj"), ExtResource("33_kulyj"), ExtResource("34_eix56"), ExtResource("35_rkrbe"), ExtResource("36_hqffq"), ExtResource("37_hqffq"), ExtResource("38_qsu28"), ExtResource("39_wm4lb"), ExtResource("40_wm4lb"), ExtResource("41_8qjhx")])
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"

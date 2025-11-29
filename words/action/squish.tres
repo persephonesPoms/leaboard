@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://c8j0rk14puqu0"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_txubs"]
+
+[resource]
+script = ExtResource("1_txubs")
+display_name = "squish"
+permutations = Array[String](["squish", "squishing", "squishes", "squished", "squishy", "squishable"])
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

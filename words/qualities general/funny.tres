@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://boif5lq6f24s1"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_5dtb5"]
+
+[resource]
+script = ExtResource("1_5dtb5")
+display_name = "funny"
+permutations = Array[String](["funny", "humor", "humorous"])
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

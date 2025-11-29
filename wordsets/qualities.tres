@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Wordset" load_steps=35 format=3 uid="uid://bhb2bwsud26sa"]
+[gd_resource type="Resource" script_class="Wordset" load_steps=38 format=3 uid="uid://bhb2bwsud26sa"]
 
 [ext_resource type="Script" uid="uid://bsnfgfse84nlf" path="res://wordset.gd" id="1_iwiy2"]
 [ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="2_c0ud2"]
@@ -34,9 +34,11 @@
 [ext_resource type="Resource" uid="uid://h8stpd5pnurq" path="res://words/qualities general/taste.tres" id="32_peede"]
 [ext_resource type="Resource" uid="uid://du0w711qpssyh" path="res://words/qualities general/pretty.tres" id="33_mnadx"]
 [ext_resource type="Resource" uid="uid://tvu4l1rhn062" path="res://words/qualities general/kinky.tres" id="34_xbgd7"]
+[ext_resource type="Resource" uid="uid://boif5lq6f24s1" path="res://words/qualities general/funny.tres" id="35_kgkst"]
+[ext_resource type="Resource" uid="uid://0xntxe4uqywb" path="res://words/qualities general/cute.tres" id="36_s4h5m"]
+[ext_resource type="Resource" uid="uid://1asmjvqe1r7g" path="res://words/qualities general/normal.tres" id="37_ioivg"]
 
 [resource]
 script = ExtResource("1_iwiy2")
-words = Array[ExtResource("2_c0ud2")]([ExtResource("3_qnesf"), ExtResource("4_4bxc3"), ExtResource("4_wr64n"), ExtResource("5_q6ilb"), ExtResource("6_23n7r"), ExtResource("7_5h6ay"), ExtResource("8_o5t4q"), ExtResource("9_lorxm"), ExtResource("10_grffa"), ExtResource("11_g1i5m"), ExtResource("12_sbjme"), ExtResource("13_o22b6"), ExtResource("14_4bxc3"), ExtResource("15_pbrm3"), ExtResource("16_peede"), ExtResource("17_mnadx"), ExtResource("18_xbgd7"), ExtResource("19_kgkst"), ExtResource("20_q6ilb"), ExtResource("21_23n7r"), ExtResource("22_23n7r"), ExtResource("23_5h6ay"), ExtResource("24_o5t4q"), ExtResource("25_lorxm"), ExtResource("26_g1i5m"), ExtResource("27_sbjme"), ExtResource("28_sbjme"), ExtResource("29_o22b6"), ExtResource("31_pbrm3"), ExtResource("32_peede"), ExtResource("33_mnadx"), ExtResource("34_xbgd7")])
-is_common = false
+words = Array[ExtResource("2_c0ud2")]([ExtResource("3_qnesf"), ExtResource("4_4bxc3"), ExtResource("4_wr64n"), ExtResource("5_q6ilb"), ExtResource("6_23n7r"), ExtResource("7_5h6ay"), ExtResource("8_o5t4q"), ExtResource("9_lorxm"), ExtResource("10_grffa"), ExtResource("11_g1i5m"), ExtResource("12_sbjme"), ExtResource("13_o22b6"), ExtResource("14_4bxc3"), ExtResource("15_pbrm3"), ExtResource("16_peede"), ExtResource("17_mnadx"), ExtResource("18_xbgd7"), ExtResource("19_kgkst"), ExtResource("20_q6ilb"), ExtResource("21_23n7r"), ExtResource("22_23n7r"), ExtResource("23_5h6ay"), ExtResource("24_o5t4q"), ExtResource("25_lorxm"), ExtResource("26_g1i5m"), ExtResource("27_sbjme"), ExtResource("28_sbjme"), ExtResource("29_o22b6"), ExtResource("31_pbrm3"), ExtResource("32_peede"), ExtResource("33_mnadx"), ExtResource("34_xbgd7"), ExtResource("35_kgkst"), ExtResource("36_s4h5m"), ExtResource("37_ioivg")])
 metadata/_custom_type_script = "uid://bsnfgfse84nlf"

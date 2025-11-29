@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://dmfqij0emkc4d"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_xmmcx"]
+
+[resource]
+script = ExtResource("1_xmmcx")
+display_name = "stress"
+permutations = Array[String](["stress", "stressed", "stressing", "stresses", "stressful"])
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

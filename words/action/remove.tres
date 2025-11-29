@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="LeaWord" load_steps=2 format=3 uid="uid://hr6st0twiowd"]
+
+[ext_resource type="Script" uid="uid://bhl3v5nbxbjvt" path="res://words/leaboard_word.gd" id="1_uhfhn"]
+
+[resource]
+script = ExtResource("1_uhfhn")
+display_name = "remove"
+permutations = Array[String](["remove", "removing", "removed", "removes", "removal"])
+metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

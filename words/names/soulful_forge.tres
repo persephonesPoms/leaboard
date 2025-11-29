@@ -5,7 +5,5 @@
 [resource]
 script = ExtResource("1_1ox4d")
 display_name = "Soulful Forge"
-permutations = Array[String](["Soulful Forge", "Soulful", "Forge", "Sorge"])
-nospace_after = false
-nospace_before = false
+permutations = Array[String](["Soulful Forge", "Soulful", "Forge"])
 metadata/_custom_type_script = "uid://bhl3v5nbxbjvt"

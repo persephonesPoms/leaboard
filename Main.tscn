@@ -352,6 +352,7 @@ layout_mode = 2
 icon = ExtResource("184_ush3o")
 
 [node name="Button2" type="Button" parent="HBoxContainer/VBoxContainer/HBoxContainer"]
+visible = false
 layout_mode = 2
 icon = ExtResource("185_j3xfc")
 
